@@ -1,4 +1,11 @@
 venv/
-data/
-*.csv
+raw/
 *.pth
+*.pkl
+assets/
+logs/
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
