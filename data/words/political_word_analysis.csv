@@ -1,0 +1,487 @@
+Image_name,Processed_Text,True_Label,political_specific_count,political_specific_ratio,LR_Prediction,LR_Correct,NN_Prediction,NN_Correct,All_Models_Agree,Majority_Vote
+train2506.jpg,রমজীন মামেও যখন আপনি আপনার বফ গফ এর মাথে ইনবকসে চ্যাটিং করতে থাকেন জেলেবন্দী থকী ইবলিশ সুমন আহন্মেদ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2024.jpg,wilbert মানুষের পোলাপান বাইবে ক্তআকাম করে আরআমি বাসায় বইয়া সারাদিন মোরাইল টিপি আরীকপিপিউটার গুতাই তার পরেও আম্মু সারাদিন চিলায় আমার আম্মুর উচিত আমারে লইয়া গর্ব করা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1528.jpg,অনুপয রায় এই স্টেশনের চত্বরে হারিয়ে গেছি শেষ ট্রেনে ঘরে ফিরবো না না না শেষ ট্রেন এর চালক meme বাংলা চুদে চাটনি বেকার খটনি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2871.jpg,tank ball tank tank ball enki bajjtannkki bejlianikl bell tank beni এসব দেখি কানার হাট বাজার! oil tank haji tank ball tennis haji tank bejitanki haji tea,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2573.jpg,ক্লাসে বারবার পাদার জন্য প্যান্টের চিংকার করা মধ্যে হেগে রসে আমার টিচার থাকা আমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2170.jpg,চোস চোষা চোষ চষ মাচো তুমি এখানে ইন্টারভিউ দিতে এসেছো নার্ভাস হবার নেই রিলেকসকৈরো চৌষী মচগষা চোষো চোষাচোষা চোষা চোষাচোসচোষচো স্যার একটা বিডিতেবোনোকি? কিছু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0478.jpg,লি বেড়াল আঁতেল ডান বাম উভয়ই খারাপ আমরা ডানও না বামও না তাই আমরা ভালো বাংলা প্রবাদ tough prom don thinks,Political,1,0.047619047619047616,Political,True,Political,True,True,Political
+train1840.jpg,জুম্মাহ মোবারক স্টেটাস দেই নাই তার মানে এই না দিহান যে আমি জুম্মা পরি নাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0374.jpg,সন্ধ্যায় পড়ার জন্য উত্তম মধ্যম দেওয়ার পর যখন আম্মু রাতে খাওয়ায় দেওয়ার জন্য ডাকে আম রজোর দরদ দেশতে হবে পাগ এর বেইমাদ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0424.jpg,ইফতারের সময় বন্ধু যখন তাড়াহুড়ো করে খেজুর গালে দেয় এবং একটু পর সেটা মুখের মধ্যে উড়তে শুরু করে তমন না আসলে স্বাদটা একটু বোঝার চেষ্টা করছি মা ওরিও বয় কি বে কি হলো ওরিও বয় কিছু নাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0901.jpg,"দোস্ত! আমার নামতো লাল মিয়ী কিন্তু ভূলে কার্ড তে বাল মিয়া আসছে ফইন্নি ডালতো, এবার নির্বাচন অফিসে গিয়ে বল স্যার, আমার বাল কেটে লাল করে দিন",NonPolitical,2,0.07692307692307693,Political,False,Political,False,True,Political
+train1476.jpg,kerala কলেছওবাসাদা শুটকিঅথবামুটকি পড়াশোনা এমনজিনিস মারোসবারপুটকি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0547.jpg,when you touch your phone for after hours studying and your mom starts চিল্লাচিল্লি ণপ হশলায় দিশগট আল্লাহ! তোমার কাছে বিচার দিলাম,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2853.jpg,বেবিস্ট্যণ্ড দুষ্টপড় rngailecaoasubu কান্দপড়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2803.jpg,"হ্যাঁ, সব এগুলৌও কি বেচে দাও বেচে দেব? বত iewuiitizia",Political,2,0.2,Political,True,Political,True,True,Political
+train1292.jpg,ঢু দোস্ত্য তোর জিএফ টাসুনদর হটও আসে ওরসাথে তোরী breakup হয়নাই এখনো কিকিইলি কিছুনার দৌসযঞ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1274.jpg,যখন কোন মেয়ে আমার ডিপি তে লাভ রিয়েক্ট দেয় আমি lalehiiie die,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2256.jpg,কেউ দেখতাছে না যাই গোলপোস্ট টার দূরত্ব টা কমায়া নেই ঞতুঝ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0079.jpg,কেউ আমাদেরে দাবায়ে রাখতে পারবা না,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2485.jpg,আম্মু চানাচুর শেষ করছে কে? nepali,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1375.jpg,টাইম মেশিন দিয়ে অতীতেযাওয়া আভি পডালেখ আবিষ্কারক,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1999.jpg,যখন তূনি পরীক্ষীর প্রথন প্রশ্লটি পড়ৌ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2357.jpg,যখন বাসার বুয়া প্রেগন্যান্ট হয়ে যায় ciiiiedire,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1639.jpg,আঁজ তোমার পরীক্ষা ভগবান bill passmanks কাতারে?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2586.jpg,আমাদের সমাজকে এই শিক্ষা দিতে হবে যে আমি তোমার সাথে একমত নই তারমানে এই নয় আমি তোমাকে ঘৃনা করি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2690.jpg,whatsyourachlevenentin this wurllouy shelter,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1459.jpg,এই বছরের সেরা কর্মচারী গিয়ভতে নিজের ডিম থাকুক বা না থাকুক মীলিকের ডিম যেন নষ্ট নী হ্য,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1608.jpg,ইন্ডিয়ান ওয়েলে চাকরির চিরকুট বিলি করছে সিপেএম indianan file,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0918.jpg,হিন্দি ছবিতে অভিনয করতে আপনার কাছে কোন কাজটি সবচেয়ে বেশি কঠিন মনে হয়? জামাকাপড় পড়ে অভিনয করা kristi kerveaaeeet,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0420.jpg,মা বাবা এইটাই ঔষুধ খেয়ে নাও ছেলে নামাখাবো না লে বীবী মা sealed,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1188.jpg,একেবারে সেহেরী খেয়ে ঘুমানোর প্লান করা আমি ঠিক টায় ঘুমায় যাওযা আমি ঘুম থেকে টেনে তুলে টেবিলে বসানো আমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1679.jpg,সাইকোপ্যাথ সিরিয়াল কিলর যারা দেড়বছরপর স্কুলে যেয়ে স্কুল পালায়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0687.jpg,স্যার রোল পিছনের বেঞচে বসা আমি প্রেগন্যান্ট স্যার teacher whole class,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0263.jpg,রোজার আগে মাগরিব আমাদের জন্য অপেক্ষা করে! india আর রোজার সময়আমরামোগরিব এর জন্য অপেক্ষা করি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2539.jpg,ভ্যাট নিয়া সবাই আন্দোলন করছে কি করা যায় এখন? ধামাচাপা দেন কমান ভ্যাট বাদ দেন baniglatroll.gom খমুকি! bacilli rig ধুরুশলী তাইলে,Political,1,0.047619047619047616,Political,True,Political,True,True,Political
+train0134.jpg,তমন নী সং ভাবে অনলাইনে হাফ ইয়ালি পরিক্ষা দাওয়ার পর আমার আমার বন্ধুদের খাতা babarafi কিছু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1974.jpg,ছাৎলীগ like চাষীবাঞর ধানকাটারসময় অন্যীন্যসনয়,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0259.jpg,আগে শুধু আমরা মানুষের হৃদয জয় করতাম আর ত্রেখন baiza sanctum হৃদয় এর সাথে সাথেসিরিজও করি জয়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0872.jpg,তোমার মা কীতমাকে খুব বকাবকি করছে? আর সহ্যাহেচ্ছেনা?ঝগড়া করতেইহেবে? meme মোএরসাথে ঝগড়া করনা বাড়িথেকে বেড়িয়ে যাও মাপানর দেখবে মা নিজেই তোমাকে ফোন করে করে বাড়ি ফেরানোর জন্য পিছনে লেগে পড়বে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0003.jpg,তুমিকেখা নাবলল বুকে অনেক ব্যখাহেয় ঠিক মত পানি খাও এটা গ্যাস্রিকের ব্যথা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2551.jpg,জমি ব্যবহারিক খাতা ওকে নিয়ে আযি এখন কোথায় যাবো?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2561.jpg,buxom chocolatekhabl com একটী মেয়েকে প্রপৌজ করসিলাম from chocolatekhabl hafiz সাথে সাথেই হা বলে দিসিলো you chocolatekhabi কিন্তু সে হা বলসিল তিনবারী হা হা হা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0647.jpg,বয়ফ্রেন্ড গরলফ্রেন্ডক বলছে তোমার চোখে আমি পুরো পৃথিবী দেখতে পাই পশদিয়ে এক লোকহেঁটেঘাচ্ছিলো বললো bangle jokes funny pictures ভাই দেখেন তোফার্মগেটে জ্যিমিআছে নাকি?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0530.jpg,mdnulhal হ্যা খালা আমরা উঠছি আপনেরাও উঠেন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2337.jpg,চাকরি চলোচাকরি,Political,1,0.5,Political,True,Political,True,True,Political
+train2480.jpg,"আমিরি হয়ে যাঁছিয? jaaasss মোনা, তুয়িআমার barbie doll থেঁদে bear হয়ে যাচ্ছৃঃত korngasss ব্রৌকু শোটা teddy",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1689.jpg,তুমিযদি এইকাজটি করেথাকো device corrfliees weird wait for rules তাহলে তোমার শৈশব অনেক জোশছিলো this passed,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2126.jpg,winter here bic winterishere say winter here,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1634.jpg,কাঠালের চেয়ে কাঠালের বিচি বেশী মজা fulani and that fact mene,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0989.jpg,নিজের ঢাক নিজে পেটানোর খরচকঙ জানেন লালমোহন বাবু? নিজের ঢাক পেটাতে আবার টাকা লাগে নাকি! ক্লাবপ্রতি মাত্র ষাট হাজার,Political,1,0.05263157894736842,Political,True,Political,True,True,Political
+train2810.jpg,top photoshop hotcehce his friday hen and you find biriyani the table anuran জদদ সবারআকআমি আমার আম্মাজানবে চিনি comments shares like comment share friday,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2194.jpg,বিদেশেররাস্তায় কয়েক মিনিটে বৃষ্টির পানি গায়েব দেশের রাস্তায় fajita কয়েক মিনিটে বৃষ্টির পানিতে রাস্তা গোয়েব,NonPolitical,1,0.06666666666666667,Political,False,Political,False,True,Political
+train2179.jpg,প্রশ্নপত্র রিপিট হবে না ভেবে ike aware mmairaila ইন্ডিয়া টিম আজকেও মোস্তাফিজকে স্টাডি করে আসে নাই!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0164.jpg,cation and ministry education intermediate and secondary education boards bangladesh edit exarriinuiion year select one board select one roll reg reset subunit ডিরকী ওয়েবেরী চেয়েও educailcn টলিটক ভয়ানক ওয়েবসাইট,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2181.jpg,"বৃষ্টিহিয়না কেন? কি করায়ায় সেমিস্টার ফাইনাল, সে তো এক বিভীষিকার নাম ন্যাডানম নেঘকেনড়াদি দেখেন",Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1584.jpg,গত দুইবছরে পরিমান বাঁশ খাইড়ি তা ক্যালকুলেটরে হিসার করলে গচড খৎ pig heefhuii,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1394.jpg,সেমিস্টার ফাইলাল সে তো এক বিভাবিকার নাম আগে মেয়েরা ছেলেদের ইমপ্রেসকরার জন্য চোখে কাজল দিত খোঁপায় ফুলবাঁধত এখন মেয়েরা ছেলেদের ইমপ্রেসকরার জন্য ফুটবল খেলা দেখে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1371.jpg,দেশপ্রিয় প্যান্ডেলেঢোকার আগে onoupo memos প্যন্ডল থেকেরনোরপরে পার্কে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2080.jpg,পকেট থেকে টাকার নোট করতে গিয়ে ভুলে টাকার নোট বের করে ফেললাম আমার বহুরা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0595.jpg,গোঁ কদিনী ঘবভ লোকজন্য আমাদেন মাচে কেদ? সরাই এপদ ঢিরনট আর গাড়ি নিযে পডেঢে আমাদয ঢাহাব শাডর দেগা মল পেছে veii,Political,1,0.047619047619047616,Political,True,Political,True,True,Political
+train2524.jpg,আমি আম্মু ঈদের সালামি দিবা না? আম্মু ভাতখা! চাইলাম কী? কইলো কীঃ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0163.jpg,"ফইন্নীর পুত,পড়ছ না ক্যারে? আব্বী তুমি এত গালি দাও ক্যারে priyosha ভুল হইয়া গেছেরে ফইন্নীর পুত ফইন্নীর ঘরের ফইন্নি আর গাইলামুনা তোরে",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2456.jpg,late অনন্তভাইয়া আনার একটা ব্রাজিলেরজার্সি লাগবে com etokhushi কোনটীনিবা হলুদ নানীল? জি ভাইয়া গোলাপী laski kereeeeeeee,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1468.jpg,টাইম মেশিন দিয়ে অতীতেযাওয়া আভি পডালেখ আবিষ্কারক,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1149.jpg,নে এটইচএসসি পরীষষা শু ছবে ফুটবল লাভার এইচএসসি ক্যান্ডিডেটঃ sulerlu,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2570.jpg,সাকিব যদি এই বিশ্বের সেরা অলরাউন্ডার হয় তবে জাদেজা এই মহাবিশ্রের সেরা অলরাউন্ডার!!! bangles জাদেজারে ঠিক চিনি না কিন্তু আসল কথা হল অন্য গ্রহে ক্রিকেটারআবিষ্কার কইরাও নোবেল পাইলেন না কেন??,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2070.jpg,সেই বিব্রতৃকর paula যখন ফেসবুক চালানোর সময় পিছন থেকে কেউ উকি দিয়ে দেখে মুহূর্ত,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0651.jpg,জাতীয় পাঠ্য বইয়ে সৃজনশীলতা আনতে গিয়ে নাস্তিকতা ঢুকিয়ে দেওয়ার পর! আওয়ামিলীগ জনগণঃ আপনে আমাদের যতটা খারাপ ভাবেন আমরা কিন্তু অতটা খারাপ না,Political,2,0.09090909090909091,Political,True,Political,True,True,Political
+train2681.jpg,com mohammad shameful island বাংলীদেশী ভীরত ভাইভোহ,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1256.jpg,প্রুরান ঢাকার ইফতার খাওয়ারস্বপ্ন স্বপ্নই থকে গেল,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1240.jpg,পড়ালেখা আয়ি যোবাইল,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1244.jpg,সিংহ আমাকে তাড়া করছে কারণ. sec bath sumo আমার অংক ভুলের জন্যে সে হরিণকে ধরতে পারে নি!,NonPolitical,1,0.058823529411764705,Political,False,Political,False,True,Political
+train2230.jpg,"বাবা, ওরা বলছে বেশ হয়েছে বলছে ওরা বিক্ষোভকারীদের পক্ষে mini দুঃখ পাস না ময়ূখ ঝোলা উঠিয়ে চলে যাব আমি তো ফকির মানুষ ফুচু",Political,2,0.08695652173913043,Political,True,Political,True,True,Political
+train2095.jpg,রাতে আপনার বাসায় চোর ঢুকেসব নিয়েগেল কিন্তু টিভিটা নিল না কেনঃ আরে আমি তখন স্টার জলসায় সিরিয়াল দেখছিলাম তায ওইটানিতে দেইনি!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0548.jpg,আমিঃ আম্মু অযথা চুলা জ্বালিয়ে রাখছো কে? জানো না অপচয়কারী শয়তানের বোন আম্মুঃ halal memos abdullain mar মাওলানা কথ ক্ম,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0523.jpg,আমি আমীর প্রিয় বন্ধুদেরসাথে মিনিটেরআড্ডী দুঃখী নুটঃ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1144.jpg,"নানু বিরিয়ানী খাব ওকে নানু ভাই jlbulkik নানী কেনো আসেনা নাতিরে খাওয়াব ভালো লাগেনা ,এবার আসুক বিরায়নী সব খেয়ে ফেলব কিছু",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2083.jpg,দলের জেরায় মুখ খুলছেন অর্পিতা ?য় এমাও উদার ঝোটি টাক আরও ঢাকা ভানত গরসবমসঃ রানতোপলিশের ওর কাছে আমি কিছুই লুকাইনি টাকা মিলবে টাকা,Political,1,0.043478260869565216,Political,True,NonPolitical,False,False,Political
+train1498.jpg,যখন কোন মেয়ে দিনভোরে খাই খাই করে কন্তু রোগা হওয়ার জন্য ডায়েটকন্ট্রোল করবে বলে ঠিক করে একবারে খায় onoupo memos,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1873.jpg,প্রসঙ্গ যদি হয় ভালোবাসার caesar তাহলে আমার মাই সেরা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1265.jpg,ছোটরেলায় বন্ধুদের সবচেয়ে ভয়ঙ্কর ডায়ালগ patna una sauna খেলা থেঁকে বাদ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1505.jpg,যখন তূমি পরীক্ষীরী হলে কপি করতে করতে ধরী পডে যাও ছাড়! আই চিন্তা করতাছি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0879.jpg,when you die and realize that you don have return your friend টাকা anymore ব্রাংলী মিম,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2651.jpg,আমি কিন্তু এইবার হন্ডুরাসকেই সাপোর্ট করি! time troll ফেসবুকে!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1670.jpg,"তার শরীরে চারটে টাট্টু আছে হাতে গোল্ডেন ড্রাগন সামুরাই ওয়ারিওর ,যেটা তাকে ভালো ভাগ্য এনে দিয়েছে samar",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0951.jpg,চোষা চোষা চোষা চোহ চো শীতকালে সবচেয়ে বড় শত্রু কি? চৌর্ষী ঘনঘন মুতোধরা চাষা চোম lltizk আজ থেকে কোম্পানি তোর আমি তৌর কর্মচারী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0921.jpg,জিনিস যা মানুষের রিজিক বৃদ্ধি করে তাহাজ্জুদ নামাজ দান করা আল্লাহকে বেশি তওবা করা বেশি স্মরণ করা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0868.jpg,আসুন আমার ছেলের সাথে আপনাকে পরিচয় করিয়ে দিই ওর নমহলো গর্বিত রাকেশ সনাতনী উতপাদনমূল্যকমানোর জিন্যেসরকারিঅফিস থেকে ওকেছাঁটাইকিরেছে এখনচাকরিনা পয়েআইটি সেলেরহয়েকাজ করে আরফেসবুক রেসোরকারি কোরলেপারিসেবাভালো হবে লেখো হিন্দু,Political,1,0.037037037037037035,Political,True,NonPolitical,False,False,Political
+train0175.jpg,আম্মু তোমার নাটকের মধ্যে এড আসছে নাংঝন এজয আমি ততক্ষণে খেলায় রানটা দেখে নেই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0710.jpg,"আম্মু পেপে খাবো! সে তো এক বিভীষিকার নাম from seminal চুপ! আজকে থেকে কোন পেপেনাই, শুধু মূলা!",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0126.jpg,মেয়েদের মধ্যে মারামারি লাগা বিদ্যমান মাথার চুল আজ বোধহয় আর রক্ষে নেই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1112.jpg,লকডাউন লকডাউন শেষে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1269.jpg,নানু বেঁচে থাকা অবস্থায় নানু বাড়িতে কাটানো দিনগুলোর কথা মনে পড়ার পর আমিঃ hon কিমজইলইইত,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2285.jpg,সে যে বসে আছে একা একা.. binaiirajjii তাতে অমির কি আমি যে শুয়ে আছিএকা একা! laiiiajjiii,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2440.jpg,আমাদের সবারই এরকম বন্ধু আছে যে বলে বিড়ি খাইলে রোযা ভাঙ্গে নী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0573.jpg,সেমিস্টারেরশুরুতেভাবছিলাম পাশ কিন্তু শপাইলাম বাশ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2162.jpg,"যখন আম আনতে গিয়ে দেখন ছালাও গেছে মনডাঅতি বেজার, ইচ্ছা করতেসে লাফদিয়ে কুয়ার মধ্যে পড়ি!",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2728.jpg,দুম্বা চালে দুম্বা চালে দুম,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1137.jpg,রৌজী রেখে instagram ভুলে ঢুকার পর নাউজুবিল্লাহ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1698.jpg,iltiolil আমাদের তো বিয়ে হল তুমি করে বিয়ে করবা? key aware bach পৃথিবীতে মানুষের জনুই হয় শুধুমাত্র বিয়ের দাওয়াত খাওয়া আর সেলফি তুলে ফেসবুঁকে পোস্ট করার জন্যা কিচু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0305.jpg,ইঞডি গণিতে ইঞ্চি চটিতে জাতীয় মিমার সমিতি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2047.jpg,পপ্রতি মুখ্যমন্ত্রীর তুলিতে গঙ্গাসাগর কুচচুঢে তো জেলে ফটো কিনবে কো!?,Political,2,0.2,Political,True,Political,True,True,Political
+train1624.jpg,যখন কউকে দেখনৌর জন্য ষ্টৌরি দিই এবং স্যখন সটী দেখে lei iiiiieue operation successful,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0926.jpg,ব্রাজিলের জার্সি হলূদ তাই তরকারীতে হলুদ খাওয়া ছাইড়া দিছি! বিয়া বাড়ির প্যান্ডেল নীল সাদা হইলে বাড়িতে দাওয়াত খামু না!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0386.jpg,"জুম্মার নামাজে দানবাক্স আমার সামনে দিয়ে যাওয়ার সময়, যখন আমি দানবাক্সে ধাক্কা দিতে সক্ষম হই বছর বয়সী আমি asia nawab",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2659.jpg,ভালোবাসী টালোবাসআমিকরবোনীভট meme fox আমিতোশুঘুপেড়ালেখাকরবো,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0546.jpg,ঈদের দিন কাউকে সালাম দেওয়ার পর যখন তিনি পকেট থেকে টাকা বের করা শুরু করেন happy member tub bound pretend গঞ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2894.jpg,when midnight andy are walking the mohammadpur streets pan এই পথ শেষ হয় নাক্যান?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0001.jpg,হরেক রকম চোর দিয়া বানাইছো মেলা পিসি তোমার দরবারে এখন chi এর খেলা,Political,1,0.07692307692307693,Political,True,Political,True,True,Political
+train0828.jpg,temp সামনে পশসয়েত ডোটআসছে মাসিমা আমাকে চিনতে পারড়েন তোচ কেন চিনভপারবো না! টিজিতকতবার দেয়েছিটোকার বাতিল নিতে,Political,1,0.0625,Political,True,Political,True,True,Political
+train2142.jpg,ভাইয়া আপনার next সিনেমার শুটিং শুটিং কি বিদেশে হবে?? না ভাইয়া এইবার বিদেশে করবো না! তাহলে বাংলাদেশেই শুটিং করছেন? না এইবার শুটিং ইন্ডিয়াতে করবো!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1967.jpg,সকাল টারক্লালস from sem final সোমস্টার ফাইনালয দবিকানি দুপূরঙটরক্লাপস,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1017.jpg,দোস্ত আজকেরৌকনস্টি কিলতু অনেক জমজমাটহইছে হ্যী বতৃআমতমুবারিগুলা সুন্দর সারাবছরের গ্লোনি ভালে গৌলীমি এখসএস aiiiri,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1531.jpg,আমার কোনো পোস্টে রিয়েক্ট দেয় না তাই তার পোস্ট দেখেও না দেখার ভান করছি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2870.jpg,শবে বরাতের রাতে bangle ববাসায় যা করতেছি জানে অসিলে যা করি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2446.jpg,when finally found the guy who said men women are never equal meme হ্যালো নিজ চোখে আজরাইল কে দেখার জন্য প্রস্তুত হয়ে নে!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0363.jpg,adman bird এক্সট্রা ক্লাস নাকি পহেলা ফাল্গূনের মেলা? retell আমি the with বন্ধুর বাসায় মিলাদ আম্মু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1215.jpg,আচ্ছা ভাই মোবাইলে তো এতদিন ক্লাসযনিত but তাইললেএখন্যক্কলাসে কনীমোরাইলানিতে দেয়নী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0814.jpg,মারা মবাই থাকো সুখথে আগুন জলুক আমার বুকে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2683.jpg,প্রতিদিনীএকবার মসৌএকবারী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1451.jpg,চাকরির ইন্টারভিয়্যুতে ম্যোনেজার আপনার শিক্ষাগ্রত যোগ্যতা কি স্যার আমি phd passed high phd school এর মান বলেন তো with difficulty,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2128.jpg,ফেবুতে পিক আপলোড দেওয়া বিদ্যমানঃ রিলেটিভ সম্প্রদায়ঃ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2033.jpg,দিদির সাথে যারী যারী ধর্ণায় বসবে তাদের এইভাবে ডিম্ভত খাওয়ানৌ হবে এই আশীতেই আজ মিছিলে জমী হয়েছিল হীজীর হীজীর চর!!,Political,2,0.1,Political,True,Political,True,True,Political
+train2349.jpg,"বেমন ঝিতীর? রিপোর্টে দেখছি আপনার পেটে অনেক চামচঃ এতো চামচ ভিতরে গেলো কীভাব? কেমন বিচার? আপনিইতো বলেছিলেন, ডেইলি দুই চামচ করে খেতে",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0273.jpg,রাস্তায় নিশ্চিন্তে হঁটিতে থাকা আমি হঠাৎ তখন সামনে পুলিশ দেখি,NonPolitical,1,0.1,Political,False,Political,False,True,Political
+train1857.jpg,মেয়েরা আমাকে লুইচ্চা বলে যতক্ষন পযন্ত না তারা জানে আনার কত টাকা আছে আর যখন জানে তখন আমাকে লুইচ্চা এবং গরব বলে barclay,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1746.jpg,বন fake bail fake big fkibaii ink bail taktibnii laid take tall পড়া মুখস্ত করতে লাগলেও wieebht daitunkiuzilifakibail taliiuaiiifaki bail সেটা ভুলতে যথেষ্ট!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0491.jpg,leave টঃ দেশের শিক্ষামন্ত্রী যদি দেয় এইরকম পেরা কেমনে করি এর আশা,Political,2,0.16666666666666666,Political,True,Political,True,True,Political
+train2722.jpg,রায যন্দির এর ভূমিপুজো অস্তিত্ব রাখে meme বাংলা চাড্ডী গণ যাকু গণ,Political,1,0.08333333333333333,Political,True,Political,True,True,Political
+train2307.jpg,"ঠআমার ছেলেকে আমি বেশি শনাতার থেঁকেভালো তো ভালো জানি আমিই জানি ওরিও বয় গালফ্রেন্ড মা সারাবছর হোস্টেলে ত্রেকসাথে থাকা রুমমেট ওরিও বয় কিছুই বলার নহে, ওরিও বয় কিন্তু চালিয়ে যাও বন্ধু",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0262.jpg,দদুকে রাগ দেখাচ্ছি ahnafeahim কারণকথীয়করথীয় সমীর জিন্য একটা বউ আনতেছবে বলে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2144.jpg,মুড tangaila sarcasm সুইং সুইং ইস্যু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2738.jpg,whenyou see post and give like instantly গনংট হ্যাশট্যাগসমাজসেবী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1910.jpg,মা বাবা তোমার পিঠে খামছির দাগ কোথা থকে তসনো? ছেলে রাতে তো ছিলো না সকালে উঠে দেখি এই অবস্থা মনে হয় জীনে খামচি দিসে জীন fun একদিন সত্যি সত্যিই খামচি দিয়া দিমু তখন বুঝবি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1004.jpg,বাংলাদেশের বাবা মায়েরা কি অদ্ভুত মেয়কে অপরিচিত ছেলেদের থেকে দূরে থাকতে বলে অথচ অপরিচিত ছেলের সাথে বিয়ের জন্য চাপচাপিকরে husain,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2898.jpg,ব্রিটিশদের জুতোর অস্তিত্ব আছে মহান বিপ্লবী শ্যামাপ্রসাদ মুখারজি,Political,1,0.125,Political,True,Political,True,True,Political
+train2725.jpg,"সারারাত ধরে নকল কালেক্ট করে টুকে পরীক্ষার হলে নিয়ে যাওয়ার পরে দেখি সেখান থেকে একটাও পড়ে নাই চুদে চাটনি,বেকার খাটনি",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1661.jpg,বনিজ্যমলা pangaea sarcasm টাঃগাইলা পিপলস inifiladrohridoy,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1209.jpg,চলে এলাম,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1721.jpg,অসংখ্য হিন্দুত্ববাদী ফাসিস্ত কেসহ্য করার চেয়ে artlstiell পুঁজিবাদী রাষ্ট্রকে একেবারে উচ্ছেদকরে দেওয়া ভালো,Political,1,0.07692307692307693,Political,True,Political,True,True,Political
+train1820.jpg,যতইনতুন ধরনের গন করিস না কেন? ক্যারিয়ারের টা বেজে গেলে আমার লেখা গানইতদের একমাত্র ভরষা রে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0521.jpg,"ডিয়ার জুকারবার্গ ভাইয়া, আমার একটা ফেসবুক আইডি বন্ধ করে আমাকে বাঁশ miwwv তো আমি নতুন দশটা ফেসবুক আইডি খুলে তোমাকে বাঁশ দিবো তুমি দিবা,",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1312.jpg,math teacher explains math fulani তোর এইকেঠিনকঠিনকথা আমি বুঝিনা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2066.jpg,গি এর মলিক অত্মি আমীর ঘুন হারান হওয়ার কারন একমত্রী ওই হালী জূকার! quite,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1972.jpg,যখন আম্মু প্রথমবারের মতো স্কুলে রেখে চলে আসে আম্মু আমারে বাসায় নিযী চলো আমি এই বালের স্কুলো কোনোদিনও ক্লাস করবোনী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2398.jpg,"hikebht হ্যালৌজান, তুমিকেই?? হ্যালোজান আমাকেএখন ডিস্টাবকইরোন আমারউপররগমখোলেদ জিয়ার নিরাপত্তার দায়িত্বাপরস,পরোকথাবিলব রাই",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0053.jpg,ভাই দুই কেজি attention দিয়েন তো এতগুলা attention দিয়া কি করবেন আযার একটা বন্ধু আছে যে সবসময় না পারলায কারো ডিপ হতে না পারলাম কারো স্ট্যাটাস হতে বলে ওকে দিব এই নেন গ্রাঘ বেশি আছে than শবশও,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1506.jpg,you jaaasss পরীক্ষার আগে আমি সেরাসবার থেকে পরীক্ষার সময় আমতেমন কিছুপোরিনা কোনমতেপাসকেরলেই হেরে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2726.jpg,hibipaiziraiiiibi নবাব সিরাজউদ্দৌলাচিলে গেছেন কিন্ত সিঞনজিআররিক্সাওয়ালা রেখেগেছেন!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1114.jpg,বিরাট কোহলি আপনি রোজ রোজ এত সেঞ্চুরি করেন কেন? অভ্যাসছয়ে গেছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2022.jpg,wwwfunboxlol তোমীর কাছে love এর চে প্রিয কোন শব্দ আছেঃ বুথের টাকা বের হওয়ার ক্যার ক্যার শব্দর দুনিয়ায় আমীর সবচেয়ে প্রিয় শব্দ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2743.jpg,বিরাট অনুষ্কাকে বিয়ে করল memos রনবীর দীপিকা কেবিত করবে আরআমিপালা বিযে করা তৌদূরের কথা ত্রেখনও একটী প্রেম করতেঃ পরলামিনা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2007.jpg,ভিডিও কলে এসে যখন তোমার বন্ধুরা তোমাকে দেখিয়ে দেখিয়ে খাবার খায় tapchli,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2821.jpg,ike aware শুনেছি একমাত্রী বোকারাই নাকি প্রেমে পড়ে তারাইনোকি গারলফ্রেন্ড পায় leu mqiralq জন্যই তোআমার কোনো গার্লফ্রেন্ড নাই আর,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2454.jpg,রোজার মাসে ঢাকা দান করলে ঢাকা দান করার সওয়াব হয়! এটা জানার পর যখন আমি বেশি করে দান করা শুরু কার! ধার্মিক চালাক!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0662.jpg,এবং আর্জেন্টিনার সমর্থকরী ofeiraf time aka use java uffjaaa see java ueeaaa que java নিজের দল জেতার থেকে oieejaa bail অন্য দলের হারের জন্য বেশি দেয়া করে! ব্রাজিল,NonPolitical,1,0.03571428571428571,Political,False,NonPolitical,True,False,Political
+train2637.jpg,স্যারঃবাড়ির কাজ করেছো? আমিঃহ্যা করেছি কিন্ত স্যারঃ কিন্তু বাসায় ফেলে এসেছো shabby কি আশ্চর্য আপনি জানলৌকিংকরে?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2008.jpg,কিঁ ব্যাঁপার ভাই কিঁ অঙুস্থ নাকি abdullah woman public album ইফতার আঘ সেহরির খওয় ডন যে দিলেনী লিগে প্সট,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2751.jpg,দারুল আমানের ন্যায় নিষ্ঠীবান মোজাগেদ সাকিব ইবনে আলম যারা আওয়ামীলিগিনের আদেশ রক্ষার্থে মায়ের সাথে যিনা করভেঙ পিছপা হবেনা ঊষ্মুল নিজ,Political,1,0.05,Political,True,Political,True,True,Political
+train1234.jpg,পরিক্ষার হল থেকে শিক্ষকদের চোখ ফাকি দিয়ে অতিরিক্ত লুজ শীট বাসায় নিয়ে আসার পর মাহিতরী এইশহরে আমারমতো ক্রিমিনাল আর একটিও নেই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2065.jpg,"bangle jokes funny pictures বলতো মাথার চুল দাড়ি গোফের চেয়ে আগে পাকে কেন bangle jokes funny pictures স্যার, মাথার চুল দাড়ি গোফের চেয়ে বছরের বড় বলে",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1204.jpg,স্কুল শিক্ষক এবং প্রতিবেশীরা যদি স্বর্গ নরক ঠিক করতেনঃ যাদের যাদের চুল রড চুল ছোট,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2537.jpg,"trolls akin rolls akin বলজন জাঢ trolls akin trolls akin বলজানঠ জাঢ় rolls alibi trolls akin আরেবাসারীনিচৌচইলাআসচি, জানজনবসায়জান! kid trolls",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0540.jpg,যদি কৌনৌ সবজি হতৌ biz কড ivies bengalbeats com,NonPolitical,1,0.1111111111111111,Political,False,Political,False,True,Political
+train1085.jpg,প্রথমোবালুরট্রাকদিয়াআটকাইয়াদিল এরপরকার্যালয়োতলামাইবাদিল wieebh কয়দদিনীপরেটিয়লেটগেলেমনোহয় বাহিরথেইকালাইটটও বন্ধ্যাকইবাদিরো,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train2365.jpg,মানুষ প্রেমকরতেসেঃ. আরংআমি হঢঢ তারা বিয়ে করতেসে আর আমিত erisutiee তাদের বাচগাহচ্ছে আর আমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0692.jpg,ত্রেকটাকর্থীবিলিঃ মনকরবীনীত আরেনানা বলো meme fox ftucmetoxotitcikll নথৌকএখননী মমানুষেড় বাচ্চা পরেকখনোবিলবো demerol কিছু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2201.jpg,চুরি করে গুঁড়া দূধ না খাওয়ার জন্য আমাকে ধন্যবাদ জানানো আমার মা এদিকে তাড়াহুড়োয় ভুলে আটী খেয়ে ফেলা বলদ আমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0642.jpg,ski morin রিলেশন থাকলে যেমনটা থাকি ব্রেকআপ হইলে যেমনটা থাকি!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0271.jpg,সর্বনশীকত্তমনুষ চল ধনমণ্ডিলেকেয়াই! ঐখানেবাচ্চ ছেলেনেয়েরযায়া বেইলিরোড!!! কিবললে তাহল পলাশের যারে?! forbid সে fake bad fash,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0511.jpg,বিয়ের আগের দিন বা পরের দিন যখন কেউ ফার্মেসীতে যায় mohammad moan লেডাক্তারঃ শুধু যে ওষুধ নিতে আসোনি তা আমি ভালো করেই জানি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2848.jpg,সেই প্যারাময় barilla যখন পিজ্জা খেতে গিয়ে কানড় পিজ্জাতে না লেগে নিজের হাতেই লাগে! মুহূর্ত ala,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2353.jpg,যখন কারো বাসায় দাওয়াত খেতে যাই কিন্তু তাদের কাউকে চিনি না,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2813.jpg,hens চোষা hens চোষা চোষা thus চোষা চোষা চোষা else চোম মিনিটে পডে যাবে জেনেও chose চোনমা close চোষা চোষা plus চোষা close চোষা plus চোষা close চোষা plus চোষা lust চোষা last চোষা চোষা lens চোষা চোষা list চোষা closed চোষা has চোষা চোষা lost চোষা list চোষা চোষা চোষা গষা uiiosu চোষা susa চোষা lost চোষা ulna চোষা মা last চোষা flux চোষা hush চোষা lust চোধা ষো lousy চোষা clause চোষা চোমা liusrl চোষা চাম চোমা chose চোষা মা চোষা চানা could চোষা ginsu চোষা চোষী চোষা চাষা চোষা plus চোষা else চোষা ends চোষা virus ষো lousy চোষা lost চোষা thus চোষা clos চোষা চোমা চোম clued চোষা lust চোষা clos চোষা close চোষা chose চোষা chose চোষা close চোষা close চোম চোষা !বং চোষা চোষা চোষা চোবা প্যাকেট কনডম কেনার চামা inurn চোবা chose চোয়া chose চোর চো চচঁময chose চোশা clos চোশা cellos নামই ভালোবাসা host চোষা chose চোষা ginsu কোষা lost চষা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1793.jpg,uuliiie মেয়েরা কিছুই পারে না! প্রমাণ চান? আমার সোনার বাংলা গানটার পরের লাইনে কি?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2540.jpg,নতুন গাট নিয়ে আঙ্গা বিদ্যমান আম্মু কত নিছে? আমি ফ্রীতে পাইছি আম্মু আম্মু তাও ঠকছোস আমি হইলে ফ্রীতে নিতাম লে জমিঃ দুইটা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2150.jpg,প্রেমিকা পুরাতন হয়ে গেলে বোরিং লাগে দাঁডা ani আর বন্ধু নামক হারামী গুলো যত পুরাতন হয় তত ভালো লাগে মিনিট ব্রী ক্লী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0337.jpg,far মরমলসমযয়ের সঢহল পরীক্ষারসময় কালীন স্টাইল,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2388.jpg,তৌরী বাইবে যেয়ে আবার বলিস নী যে আনি নকল করতে দিসি!!! আরে নাংস্যার কি যে বলন কমু স্যার বহুতা হারামি আছিল মাথয নঃ শালারপুঁত পরীক্ষার হলে নাড়াচাডাও করতে দেয় নট!!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2763.jpg,সেলুলার জেলে বন্দী থাকা ভারতীয় স্বাধীনতা সংগ্রামীরা like cremate there inns tor wrong,Political,2,0.15384615384615385,Political,True,Political,True,True,Political
+train0151.jpg,ইর!লা হ্যাপি বার্থডে ভাই থ্যাংকস faccbookcom আনি করে নিবো ভাই পার্টি? ঢুই টেনশন করিস ocrscisumu,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2556.jpg,when you cut results came positive and then realize that the real result will হাশরের ময়দান nappy given ব্রাংলা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0929.jpg,ভয়ানক অনুভব করার সময় রাতুল আয়াতুল কুরসি পড়ার পর আমার সাহস আয়াতুল পডার আগে আমার সাহস কিছু কুরসি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2219.jpg,বিশ্বগুরু টাকা মজবুত হয়েছে! এক ডলার সমান এখন কতো চলছে? elemis,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1337.jpg,আজকাল টাকার ভাংতি না থাকলে চকলেট ধরাইয়া দেয়ত ike aware ভাগ্যিস শায়েস্তা খাঁর আমলে জন্মাইনি নইলে তো টাকা ভাংতি না থাকলে মন চাইলের বস্তা ধরাইয়া দিত...! roll more you,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1078.jpg,গালফ্রেন্ড পেয়ে ফফরেন্ডদের ভুলে যাওয়া ফেরেন্ডের যখন ব্রেকাপ হয় ফন্ডরাঃ bengali life ত্রেটাও আল্লাই তায়ালার একটা নিয়ামত thug,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2279.jpg,চৌধুরী সাহেরঃ টাকার বিনিময়ে sadhu আপনার মেয়ে এবংনাতিকে ভুলে যাবার অফারট কিএখনো আছে?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0769.jpg,পপ্পশ্চিমবঙঙ্গেরলোকশু উন্নয়নেরটান উন্নয়ন army,Political,1,0.25,Political,True,Political,True,True,Political
+train0842.jpg,ওই দেখেন ইনি সেই ব্যক্তি যাকে সব মেয়েদের ফ্রেন্ডলিস্টে পাওয়া যায়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1921.jpg,পরিবর্তন করে শেষে এই পেলে পাঁচিল টপকাচ্ছে এম এল,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train2064.jpg,hush late স্যারআজকে ফুল ফুটছে এরমান বুঝলাদ্যায়া nobhbishaheb কীৎস্যার? এর মানে আজবসন্ত গাছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2789.jpg,দেখড়ে পাচ্চা বিনোদ. heirs উনয়সর নিব জোয়াত বালট কেমন ভাসড,Political,1,0.1,Political,True,Political,True,True,Political
+train1044.jpg,যখন হঠাৎ করে হাসানিয়ান বড় ভাই কল দেয় মিঃ sheer আপনর কিসদিযার নম্বর লাগবো?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1390.jpg,ফাইনালের এক সপ্তাহ আগে যেভাবে পড়ি maia ফাইনালের আগের রাতে আগে যেভাবে পড়ি bail,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2045.jpg,hubli বাংলাদেশের খেলা যখন শুরু হয় বাংলাদেশের খেলা চলার সময় size বাংলাদেশের খেলা যখন শেষ হয়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1629.jpg,আমি মারা যাওয়ার পর যখন দেখি আমার চল্লিশায় আমার বন্ধুরা এসে আমার মৃত্যুর শোকে কাম্নাকাটি না করে বিরিয়ানির মাংস নিয়ে মারামারি করতেছে আমার আত্মা শুয়ারের বাচ্চা তোরা জীবনের ভালো হরিনে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2286.jpg,পরীক্ষা কেমন হইসে কেমন হইসে কেমন হইসে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0679.jpg,and তুমি জান?আমার রূপের রহস্য কি? floumljhallisss ফেইসবুকে ফটোশপ আর বাইরে আটা ময়দা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0349.jpg,ঠিকভাবে ব্রাহ্মণবাড়িয়া বানান করার পর আমি শিল্পী আমি শিল্পী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0250.jpg,eveeyonehasthat one desperateeriiend whoisalways desperate know taiga newel মামাকসনাকাহিনীকি?!!!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2688.jpg,বাঙালি রেস্টুরেন্টে গিয়ে বিরিয়ানি চামচ দিয়ে খেতে হবে ovolo meme চামচ দিয়ে খেতে খেতে হাত দিয়ে খাওয়া শুরু করা যাবে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1632.jpg,"তুমি আমাকে বিয়ে নাকরতে চাইলে তেমাকেকিডন্যপকরেবিয়ে করবো faccbookcom গইরল বুঝছি, তোমার আবারও তামিল সিনেমার ভূত ঘাডে চাপছে",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2664.jpg,মামা তৌদের এলাকীয আসিছি sribuiz আচ্ছা ঘুইরা চইলা যা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0956.jpg,একসামের খাতা বাসায় ফেরার সময় দেখতে চাওয়া খাতা বিক্রি করে আমার আম্মু আসা আমি aryan,NonPolitical,1,0.06666666666666667,Political,False,Political,False,True,Political
+train0764.jpg,জয় জয় শ্রী রাম,Political,2,0.5,Political,True,Political,True,True,Political
+train2467.jpg,জয়াআহসান,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2893.jpg,রোজ বাড়িতে আত ফুটবল নাচাই iiiiies আর আমি বিধানসভা ভাঙচুর করি,Political,1,0.09090909090909091,Political,True,Political,True,True,Political
+train2511.jpg,অনলাইন হয়েছে banal টছ সবার আগে ঈদমুবারাক লিখে মেসেজ দিবো সুন্দরী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2291.jpg,হেইচিক তোমার নাম কি heb আরোআজব ঢ! কেটেপরবাক্যোন?? আমি কিখারাপকিছুবলছিনাকি??,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1053.jpg,আগেজানতামাইট বালু নির্মাণ কাজে rolls trolls akin tons ব্যবহারহয় এখন দেখি নিরাপত্তারজন্য নাকি ব্যবহার হয়! freebee কয়দিন পরে কইবো যে চিকিসার জন্যও trolls trails akin akin ব্যবহারহয়া troll,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1324.jpg,কন্যাশ্রী ধর্নাশ্রী রুপোশ্রী সব বব কিন্তু কাট মানি চাইলে আবার ধনা বব,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0972.jpg,আমি বিমান mini silicon পোকাসোদী,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1076.jpg,একা একা খেতে চাও দরজা বন্ধ করে খাও meta iiegliltleme ball lemme taiga none ball bhhglailil vanilla mime bangle mime,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2030.jpg,যখন আপনি বোরন রডের মাথায় গ্রাফাইট টিপ লাগিয়ে rock reactor গুতা মারেন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0848.jpg,যখন টয়লেটে কেউ লাইট অফ করে দেয় আলো. আলো আমি কখনো খুঁজে পাবো না,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0600.jpg,ছোট্টো শিশুর জামা কাপড় থেকে শুরু করে পায়ের পর্যন্ত similes আমরা কিনে দিই মমতা ব্যানার্জি বাবা! হারিসটবলতে ডুলে গিয়েছেন esreulutteratn জুতোটা,Political,2,0.09523809523809523,Political,True,Political,True,True,Political
+train1101.jpg,এইবার পরীক্ষা ভাল না হলে ঠিকআছে আব্বা যাবি আমিতোর বাপ পরীক্ষা শেষ হওয়ার পর. তোর পরীক্ষা কেমন ওইতুই হইছে? কেডা!? ভুলে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0653.jpg,syllabus left hellene days left foreman,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0301.jpg,আব্বু বাঙ্গির প্রতি আব্বুর ভালোবাশা balloon,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0061.jpg,পরিক্ষারন আনার মোরাহল তম,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2484.jpg,শ্লোস কথ আডে niiladrok ইফেব্রুয়রির কি কথা প্ল্যানকিৎলোর? tangaila sarcasm friday,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2468.jpg,জনযমনুষকে চাপা দেয় but wii were জনকে বাচানোর জন্য nice iiiiliie,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0831.jpg,whoever finishesthe race first gets পরিবেশ বান্ধব গাছ wait গিলয,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1179.jpg,আমি চাডি নই নিরলসংসাহিত্যচর্চার জন্য বাংলা অ্যাকাডেমির পুরস্কার পলেন মমঅ বন্দ্যোপাধ্যায়,Political,2,0.18181818181818182,Political,True,Political,True,True,Political
+train1538.jpg,"যখন কেউ বলে কিরে মোবাইল টিপে সময় নষ্ট করিস কেন? আমি অভদ্র মিমস আরেবূল, তুমি জানো না মোবাইল কী জিনিস লাইফ পারটনার ছাড়া থাকা যায় কিন্তু মোবাইল ছাড়া নয়",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2643.jpg,আপা গণতন্ত্র মানে দযয বাংলাদেশে আইসা দেখযান কি?,Political,2,0.25,Political,True,Political,True,True,Political
+train2523.jpg,আমার শুধু মোদীকে ভালো লাগে আমি বিজেপি সমর্থক নই আমায় চাড্ডি বলবিন,Political,2,0.16666666666666666,Political,True,Political,True,True,Political
+train1131.jpg,খিলাফাতকে সরিয়ে গনতন্ত্রকে কোলে তূলে নেওয়া বিদ্যমান! air ahmed জনগন লেগনতন্ত্র!ৎ!!,Political,1,0.09090909090909091,Political,True,Political,True,True,Political
+train1098.jpg,আমি মধ্যরাতে ফার্মেসীতে নাপা কিনতে যাওয়া পর দোকানদারঃ bengali life তোর কি বেলুন লাগবো? thug,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1069.jpg,মাটির ব্যাংকে প্রতিদিন টাকা রেখে বছর পর ব্যাংক ভেঙ্গে যখন টাকা পাওয়া যায় আম্মু polls had আমি কিতার মধ্যে টাকা ঢালতাছি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2413.jpg,ই!ল কেদারায় আসন গ্রহন করুন faccbookcom কেরেচেয়ার নাই?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2581.jpg,বকসের মধ্যে বসে আঁছি কারণ মেয়েটি বলেছিল ইনবক্সে আসতে act,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1975.jpg,আজান শুন আড়াহুড়ো করে ইফতার শুরুট করে দেওয়া আমি ওরিওবয় পশেরঘরেবাইলেআজান চালিয়েবসেথাকাআমার ছোটভাই ওরিওবয়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1831.jpg,প্রিয় ছাত্র ছাত্রিরো. akin trolls ski rolls akin trolls akin trolls পড়ালেখা হইল এক ধরনেরপ্যোঁরা যেখানে তোমাকে পার করিতে হরে এত্তগুলা বাঁশের বেড়া! trolls,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1402.jpg,pad era জন্মদিনে কি গিফটনিরি? uradhura troll বেবিডিল রেবি ডল com urudhuron কি? ঠিকাছে বারবিডলীদিয়েন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0811.jpg,"সেমিস্টার ফাইনাল, সে তো এক বিভীষিকার নাম বলো সেনমিস্টার সিস্টেমের সুবিধা কি? সুবিধী তো জানি না from sem final কিন্তু বছরে বার বেইজ্জতি ঠিকই হয়",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1368.jpg,আমাদের সবার এমন একজন বন্ধু থাকে যেবার মাসে তের বার ছযাঁক খায় আরসপ্রতিটা মেয়েকেসিরিয়াস ভালোবাসতো,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0043.jpg,না চুদে নিব্বি খেতাব পেলাম দিব্বি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2284.jpg,ঢাকা নিউ মাকেটে ব্যবসায়ী ছাত্র দের তুমুল সংঘষ! সংঘর্যে বিএনপি জড়িত!,Political,1,0.09090909090909091,Political,True,Political,True,True,Political
+train1960.jpg,সৃষ্টিকর্তা নকিসব ছেলের জন্য একটিকরে মেযে বনিয়েছেন keri আমরটী মনেহয় গুমহইয়া গেঁছে শালার খুইজই পই না,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1646.jpg,তেকিনা তেমন ভারতে ফ্যাসিজম সৃষ্টির অন্যতম স্পনসর কিছু,Political,1,0.125,Political,True,Political,True,True,Political
+train2013.jpg,জীবনে প্রথম বার যখন কেউ রক্তদান করে তখন! রক্তদাতাঃ এসি কৃতি শিক্ষ্য আমার জীবন এখন সার্থক!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0219.jpg,ডাক্তার সাব আমারেবাঁচান আমি ঘুমাইলে চোখে দেখি না খাইলেক্ষুধা লাগে না আপিনি রোজসকালো একটী ছাগিলের ডিন radio bonbon আর এক গ্লাস মুরগির দুব খাবেন তিহিললৌ তঠঠক হয়েযাবেনী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1935.jpg,পড়েন? কেন বাসীয় পড়ার ফার্মেসীতে জায়গা নাই vice কিসে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0531.jpg,বর্তমানে আমাবদের জাতীয় পড়া বাদ দিম ফোন নিয়ে পডে থাক!! ফুচকী আর আম্মু দের জাতীয় বকী মোবাইলেন ভেতর ঢুইকা কাজ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2482.jpg,সুকন্যাকেগরেফতারীকরে কেরলো!? এটাতো ভালো উদ্যোগ বাবার কাছে থাকতে পারবে কেউ তো পাশে থাকবে,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0225.jpg,oadenalibelasee ক্যাপসুল মার্কেট tangaila sarcasm ক্যাপসুল মার্কেট secrets rest,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0922.jpg,com faizlamikorbi কিরে তোর বাবা না দাঁতের ডাক্তার? তোর ভাই দাঁত ছাড়া জন্ম নিলো কেন? faizlami forbid তার বাবাও তো দর্জি তাইলে তোর ভাই লেংটা জন্ম নিলো কেন?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1033.jpg,ক্রযীশ যখন তীর জএয এর সথে কীপল পপক দেয় shabby ফাইট্টা যায়. ফাইট্টা যায় বুকটা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1660.jpg,অপীরেশনরপর আজই তৌআপনার চোখেরপট্টিখুলল wwwfunboxlol তা এখন কেমন দেখছেন মা? দেখছি তুমি মাসখানেকযাবৎঘরদোর ভালৌ করে পরিষ্কার করোনী সারা বাড়িতে কেমন ধূলো জনে আছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2092.jpg,আমি ফাইসাগেঁছি আমিফাইসা গেছি baby bribe মাইনকীর চিপীয়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0896.jpg,লোকলজ্জা নয় গর্বের সাথে বলছি স্কুল জীবনে কখনো স্কুল ফাকি দিয়ে কোথাও ঘুরতে যাই নাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1568.jpg,when you see group tabling hours coming towards you যদি বেগতিক দেখেন ঝাইড়া একটা দৌড় দিবেন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2073.jpg,যখনীতুমি এগুধুমাত্র ত্রেকজনের সাথেকেথ বলে সেওরিপ্লাইদেয়নাৎ! ত্মারমুড়ঃ halalmeme artful ন্তু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1708.jpg,ক্লাস সেভেনের পিচ্চি মামা একটা গৌল্ডলিফ দেন তৌ দৌকানের আশেপাশের মানুষজন চঢ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2566.jpg,ফেল করল বাপে com armshrderiom হারামজাদী তোর পিছে এতো টাকী খরচ করছি ফেল করতে!!! আর পাশ করলে বন্ধুরী paella হালারপুতআমাগোরে থুইয়া একা পশি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0907.jpg,flat fixes ane law since bhinluesh uincledete suicide bainiidey jainlauisi ব্রো পৃথিবীর উচ্চতা কতঃ মিটার uuitalt thine tic laue since bhinlubh sinclair bewniiadisi ask did qiiclaue bailey guzsyou red woitdbro ব্রোৎ bianca,NonPolitical,1,0.03125,Political,False,NonPolitical,True,False,Political
+train1065.jpg,veii বেচারাম তেখন সিপেএম করতো tattoo,Political,1,0.16666666666666666,Political,True,Political,True,True,Political
+train0291.jpg,ভাইআবাইলোফফরিটিভি দেখবকিভা? মোবাইলের ক্যামরাটাঅন করোটিভিরসামনেধেরা! tibia,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1002.jpg,মী আমার নীল জামাকই ওইডা দিয়বথরুমের পা মুছার লেকড়া বানাই ফেলসি kiushu আমার প্রিয় জামা ছিলো ওইটী চুপথক,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0570.jpg,যখন আপনারা উভয়েই কোরোণা ভাইরাসে আক্রান্ত রোগীদের কথা লুকিয়ে রাখা চেষ্টা করেন,Political,2,0.16666666666666666,Political,True,Political,True,True,Political
+train2443.jpg,skis troll akin trolls experience ছাডা চাকরি হবে না! hiiebif alibis tolls aka iirdjls albi trolls চাকরি ছাডা experience হবে না! alibi rolls ski brieetrci abs trolls অহন আমি কি করবাম!? trolls,NonPolitical,2,0.0625,Political,False,Political,False,True,Political
+train1601.jpg,faicebai পরীক্ষা কি শুধনু ছেলেরা দেয় violin পরীক্ষা ছেলেরা দেয় মেয়েরা দেয় কিন্তু পত্রিকাতে শুধুমেয়েদের ছবি আসে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0453.jpg,টার্গেট ছিল ike aware করছি সমস্যা?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1741.jpg,"চায়ের কাপে ভেজানো বিস্কুট একটাই শিক্ষা দেয় কারোর প্রতি এতটাও ডুবে যেওনা,যাতে নিজেকেই ভেঙে পড়তে হয় শনেন",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2375.jpg,"cow smuggling পুরসভাতেই অনুব্রত সুকন্যার নামে রয়েছে কমেকশো কাঠা জমি, দাম শুনলে অবাক হবন saurel কেশ ফলযা সুরবললয মতেন সদকব নিটোলে মি খ্রামমি? মি cash সম্পতি বেড়েছে বকেট গতিত সিরিতণ সুত্র খদা বরপাব সুনবোন সায় নেভেছে প্রাণ এটা তো মাত্র বাকি কোথায় আড়ে সেঢা জান তো! fees বোলপুর",Political,1,0.020833333333333332,Political,True,NonPolitical,False,False,Political
+train1145.jpg,চার বোতাল ভদকা কাম মেরা রোজকা uradhura troll চুপ !এত গরমে রোজ চার পারচ লিটার জল খা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1177.jpg,সরকার যদি আপনার বাসার নিচে তেলের খান পায় তাহলে সেটা সরকারের যদি গাজা পায় সেটা আপনার বান wow life কিন্তু thug,NonPolitical,1,0.047619047619047616,Political,False,Political,False,True,Political
+train1969.jpg,"সবাইবিলে ছেলে হোক,মেয়ে হোক,দূটি সন্তানই tum shilfiiel কিম্ভ কেউবলেনী মিস্টার ফাইনাল সে তো এক বিভীষিকার নাম tlguiiliseeiilbl oculi stile iiruuiil emilie guin tina cutis iuuinial সাবজেক্ট যাই হোক যথেষ্ট ঘেংষ্ট",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0519.jpg,এই কনঃকনে শীতের সকালে যাদের প্রাইভেটআছে rarngallasarasnid তাদের জন্য এককম্ল সমবেদনী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2025.jpg,felloes বুংলজরসতায়যিনজট ski bad sky rolls শালার আমি যেদিকে থাকি ঐদিকেই বেসিষনন আটিকইয়ারা! হহ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1432.jpg,পিসি সরতঅরপ্রতীক heres,Political,2,0.6666666666666666,Political,True,Political,True,True,Political
+train2122.jpg,গরম দিনে পায়খানা থেকে বাইর হওয়ার পর চন্দ্র,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1154.jpg,আত্মনির্ভর শব্দটা উচ্চারণ করতে যতবার হোঁচট খেয়েছি ভারতের আত্মনির্ভর হতে তির চেয়েও অনেক রেশী দেরী হিরে তোরা বরঃ তিতদিন হোয়্যাটসঅ্যাপ ইউনিভাসিটিতে রীব মানুষকে বাস্তুহারা করা এনআরসি কেন প্রেয়োজন সেই বিষয়ে পড়াশোনা করা,Political,1,0.03125,Political,True,NonPolitical,False,False,Political
+train1903.jpg,comzfaizlbmikorbi gfhizlamerorbi গালফ্রেন্ডঃ বয়ফ্রেন্ডঃ তুমি আমাকে আমার একটা মোবাইল কতটুকুভালবাসো?? আরতিমি তার সিম কার্ড লফেন্ড বয়ফ্রেন্ডঃ from faizlamikorbj hood মলোমনে thanked ওবুবেনি আমি কতো লাকি মোবাইলটা does সিমওয়ালা হিদয়টা gfhizlamii horse,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1650.jpg,আপনার সামনে অনারস আর পাস দুটো কোর্স দেখতে পারছেন? হ্যাঁঅনাস নিয়ে নিয়েছি ভুল করেছেন এবার বাঁশ ঝাড় নিতে থকুন,NonPolitical,1,0.05263157894736842,Political,False,Political,False,True,Political
+train1595.jpg,আম্বু আমি পড়ানারচাপ পম গনগরকা tieedru really,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0024.jpg,মা ওই যে ইয়ের উপ্রে আছে ওইটা নিয়া এর নিচে রাখা লে আমি strain,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2759.jpg,ninja বলো তো আট দশে কত হয়? nimbi আশি ninja আমি তোমায় ভালোবাসি pencil tough,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0987.jpg,new years,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1654.jpg,যতটা দূর্গা পূজোর সময়ে অষ্টমির বিকালে খিঁচুড়ি পরিবেশন করার আগে এক বালতি খিঁচুড়ি আগেই নিরাপদে তুলে রেখে দিই!! আমাককতটযনিরাপদ রেখেছযুম্বা achincya,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1532.jpg,দেশেরশান্তিকামনায় মোনাজাতকরে hkebhf আর রাস্তায় গাড়িতে আগুন জ্বলে,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0917.jpg,জেনারেটর ছবিতোলা যায় tibial java fake bail otalgia fall bail ofaalali bail orphan fall ball idea জেনারেটর দিয়ে ছবি তোলা pal off java আর ক্যামেরা দিয়ে প্রিন্ট করা হয় ঠিকনা! দিয়ে omar,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2099.jpg,সুজস চক্রবর্তাবে গ্রেফতার করে জিঞঞাসাবাচ করা উচি seines দড দধচগওখ শদভড় বেনিফিসিযাবীর র্ষবসী ডড? গেংর ণ্ডাসালদী উচি,Political,1,0.058823529411764705,Political,True,Political,True,True,Political
+train2011.jpg,ইয়াম্মামাললানিমন্ডী সাথ বেযাদস কয়টাপা ভুঁইদ্রভ থলিপ! গুমডান আম্না কোঢুল কুদ্দা মারদিলীয়ে খেললামিদ পিন বেয়াদপ ওই তাইলে ঠিক্র অষ্ট,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1563.jpg,ধর্ম তলায় এসে যখন জানতে পারো আজ ডিম ভাত পাবে লাঞ্চে যখন জানতে পারো ডিম ভাত শেষ তাই আর পাচ্ছ না,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2426.jpg,"খোদা,এত গরম কেরে? বর্ষা গেল কই? key aware bach বর্ষয তা বাপের বোড়ি বেড়াতে গেছে bunch",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2619.jpg,size যে গরম পড়ছে যাই গোসল করে ঠান্ডা হই ralrebau ফইন্নির ঘরে ফইননি পানিও গরম কিণত,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0755.jpg,"দোস্ত বিল গেটসের মেয়ের সাথে আমার min বিযে ঠিক সত্যি? ক্যামনে? uituunnn মানে আমি রাজি, এখন তারা রাজি mimic হইলেই হয়! see",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2474.jpg,banclaipei যেভাবে ম্যাকবুকে পিসি গেমস খেলবেন,NonPolitical,1,0.16666666666666666,Political,False,Political,False,True,Political
+train0711.jpg,একটাকরিতাববলতা আচিবৈলছিজ কবিতরনাম ডাইলো wilier কমলা খেলিগরুখেলি যেলি নদীর বালি নিজয়েলিবউকোদিলি বাদগরেল না শালী দুঢু,Political,1,0.06666666666666667,Political,True,Political,True,True,Political
+train1865.jpg,গতারাইতে সেরান স্বপ্ন দেখছি তাই ভাই ভাবীরে দেখছেন? ফহিন্নিরে ফহিন্নি আমি দুঃস্বপ দেখছিনিরে!!! fakilbaj,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1286.jpg,বন্ধু অর্ধেক বিড়ি খেয়ে বাকি অধেক যখন আমাকে দেয় পডে যখন যানতে পারি ওর করনা আছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1007.jpg,আমি jurnjgena আমার জুতায় আছে ফিতা sunhat আমিশেখ হাণনয আমার বোপজোতির পিতা effbiji,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2462.jpg,গণতন্ত্রের মমতা লজ্জা ব্যানাজী,Political,2,0.5,Political,True,Political,True,True,Political
+train1454.jpg,আব্বু ঈবদর জামা কিনে দিবা না? মুখে বললে হবেনা brae যাওদরখাস্ত লিখে নিয়ে আসো!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0664.jpg,বেগমসাহেব কাজের বুয়া বাথরুম ধুষয়ে ঘর মুছেদে আজকেনদিবস,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1522.jpg,যখন ম্যাচে করে বাজ লাগাই এবং ম্যাচই মারা খাই লে আমি আমি খিতার ভিতর টিয়া ঢালতাছি?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2293.jpg,টা প্রাইভেট পরেও ফেল করা আমি আমার বাবা আমি কিতার মধ্যে টাকা ঢালতাছি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2152.jpg,"মাথাপিছু আয় বেড়ে ডলার, জিডিপি প্রবৃদ্ধি ছঁ ঢঁ মাথাপিছু আয় ডিতায হালি টাকা",Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0815.jpg,urraphuraa কম খরচে কিভাবে মেয়ে পটানো যায়? uradhura troll চয়িনী door কিনে pad era,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2086.jpg,hkeebai তরিখয়ে নাকি ফেসবুক বন্ধ কইরা দিরো তাইলেসরদিনঘরে বইস বইসাচকি করমু বুঝছি এখনসরকার বিরধি আন্দোলননমা লাগবো,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0464.jpg,youtube jury,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1160.jpg,প্রতিবার মানুষ আমার নাম ভূল উচ্চারণ করলে পেরেতাম তাহলে তোমাইক্রোসফটের আগেইআমি লিংকডইন কিনে ফেলতেপারতাম banana গং microsoft linked,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0658.jpg,পারবো না হতে আমি রোমিও meme অভদ্র,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2182.jpg,কি ভাবে ফটো তুলার মানুষ আছেনাকি আমার মতন সন্নযাসী হয়ে আছৌ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0204.jpg,সবার এমন বন্ধু আছে যে carpal পরিক্ষার আগে দোস্ত ফেল নিয়াও টানাটানি! fake jazz birizzzzl রেজাল্টের পরে. পাইছি মামা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1860.jpg,পার্কে ইটিশ পিটিশ অনেক করছো সবাইকে সচেতেন করো ত্রেসব বন্ধ করো!!!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0381.jpg,নোদিঢাকায় এসে যেভাবে উষ্ণ অভ্যর্থনা পেলেন baby তিনি ঢাকায় এসে যেভাবে আনাদের উষ্ণ অভ্যর্থনা দিলেন,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1853.jpg,খেলর সময় ধন বলের মুখোমুখি সংঘষ বিদ্যমান লে দর্শকমন্ডলি belovo,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2530.jpg,সপ্তাহে এক দিন memos সপ্তাহে সাত দিন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0988.jpg,সৌদি আরবে আজ থেকে রোজা শুরু বাংলাদেশি শয়তানঃ সৌদি শয়তানঃ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0495.jpg,ওহ মার্কস লেনিনের নাম করে মেয়েবদের শ্লীলতাহানি করিস? ঠিকাছে এবার তাহলে দেওয়ালের দিকে মুখ করে দাঁড়া তুই,Political,1,0.058823529411764705,Political,True,Political,True,True,Political
+train2298.jpg,wisest chicano আদি বিজেপি বনাম নব্য বিজেপি পশ্চিমবঙ্গবাসী,Political,2,0.25,Political,True,Political,True,True,Political
+train2662.jpg,মা সিরিয়াল তো শেষ. এখন কি আবার নানী সিরিয়ালের আগমন ঘটবো নাকি? mocha,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1997.jpg,kkuski late আগৈরকালের আড্ডা com etokhushi এখনকার আড্ডী ireeeeetee,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0130.jpg,পাঠ্য বই কে কে আনেনি চেক করতে আসা স্যার ব্যাঞ্চের সামনে বই না পেয়ে স্যারের হাতে যার খাওয়া আযার বন্ধুরা pals set এদিকে অন্য সাজ্জেক্টের বই ব্যাঞ্চের সাযনে রেখে যার খাওয়া থেকে বেচে যাওয়া আমি,NonPolitical,1,0.02857142857142857,Political,False,NonPolitical,True,False,Political
+train0247.jpg,লেখাপড়া ছাড়া কখনো আনি অপিনারসথে ডিগ্রি লভক্বীযয়নী একমতন থমোমিটীরতো লেখাপড়ী জানেন তাওতোওয় ডিগ্রি আছে বুঝলি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1988.jpg,অমির প্রতিলিক change genes আমার বন্ধুদেরকে আমার মত ভীলো করে দও তুমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1666.jpg,পুকুযের অর্ধেকমাথায় বেডি বাকী অর্ধেকে বেডিগো সাথে ফ্লার্টী!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1465.jpg,একটিভ স্যাস্টাস বন্ধ করার পর আমার বন্ধুঃ ভাই দেখ তো আমারে এক্টিভ দেখায় নাকি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0859.jpg,হসন ঘুম fulani শদচ সুইটি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1942.jpg,when you fail bus extra প্রথমবার দিয়েছি শেষবীর নয়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0800.jpg,ডাবল সেঞ্চুরির উপর ভ্যাট দিতে হবে সাকিব রিয়াদ ছিন্তা করিস আমরাতো বিবদেশকুরসি কিন্তু না,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0179.jpg,থার্টি ফাস্ট নাহঢ tangaila ডার্টি ফাস্ট নাহঢ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0724.jpg,winning lottery was olympic sport জসীম,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0393.jpg,একসটথ সবকাজিনরা মথিলে গ্রপ পিকচার তলার স্বপ্ন prison স্বপ্নটই থেকে গল,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1753.jpg,টা বন্ধুর মিধ্যে আপনিই সেই ভালো বন্ধুটা মোবামক যে কিনা মিশন বাদ দিয়ে তারাবীহ পুরো রাকাতই পরেছেন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0248.jpg,ইদের আগে দিয়ে যখন নাপিত হেয়ার স্টাইলের বারোটা বাজিয়ে দেয় চন wutuonecouldi lose,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1625.jpg,during প্রধানমন্ত্রিত্ব প্রধানমন্ত্রিত্ব,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1892.jpg,"qurtuws neatlislaryuuliii জলীললা, এইডা আবার কি কইলা?? মানে ilnlauergururnangsu uikmuia",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0205.jpg,rome বাংলা কি বসা গ্রহণের আগে সবার খাওয়া হয়ে গেছে তো?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1370.jpg,সদ্য বিবাহত রয থকে মখব শযৃগলশুদর শুষা যায় আইজকা ভূমিকম্প হচ্ছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1028.jpg,এই যে মন্ত্রীসভায় রদবদল মনেহয় পরিবর্তন কিছু হবে? প্রথম ব্যাচের খাওয়া শেষ এবার দ্বিতীয় ব্যাচ খাবে,Political,1,0.0625,Political,True,Political,True,True,Political
+train1254.jpg,aiciiit ইদের কতদিন আগে চুল কাটালে ইদের দিন চুল ঠিকঠাক দেখাবে? এই বিষয়ক গুরুত্বপূর্ণ আলোচনা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0195.jpg,hang gat আরোহী কি? বায়োমেট্রিক পদ্ধতিতে সিমর রেজিস্ট্রশন করসো,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2721.jpg,আম্মু বাইবে কোথাও মনে হয় মারামারি লাগ halal memos,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0272.jpg,"ছেলেরী জবরে আম্মু, আমি মনে হয় আর বাঁচবো না skies aware mairaila মেয়েরা জ্বরে",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2423.jpg,beiiiee রবি ঠাকুরের আগের নাম কি ছিলো?? একটেল ঠাকুর কেনণা একটেল এখণ রবি!!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1106.jpg,শম কাব বন্ধুরা মাল মাঠ ক্রিকট ফুটবল খলাত গায়ছিল? আমি chowdhuri sourer অনেকজনেক দিন জগৈরকথা adits roy,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2050.jpg,কাউকে বেশি লাই দিলে লরকান ঢুগিকামি মাথায় উঠে বসবেই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2460.jpg,যাইএকটু এসপ্পিপার্কদিয়েঘুরে আসি tangaila sarcasm nifladrohridoy দূরবালযইয়াকিহরে সমার কেউনাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0321.jpg,telling mother আম্মু মাত্র এক বিষয়ে ফেইল করসি আব্বুরে বইল না bine,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2352.jpg,বান্ধবীর বয়ফ্রেন্ডকে বলে ডাকতে ডাকতে সেই জিজুই যখন আপনকে ভীলৌবাসি বলে প্রপৌজ করে বসে abri এতটাও আপন করতেবলিনিআমি জিজু জিজু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1659.jpg,বাথরুমে ঢুকে লাইট বন্ধর করে দিয়েছি মোবারক কারণ আগেরবার আফফিকার জসল পরিষ্কার করার সময় বন্ধু ভিডিও করে আমাকে ব্লাকমেইল করছিলো,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0218.jpg,"বাংলাদেশি আক্মূদেন বিয়েকশ্যীন ikeuamare mairaila মখন তারী জানত পরে যে ভাইবাম হোয়াউসঅ্যাপ, ট্যাহগৌ সববন্ধ কেইসবুকের সভীবনী আছ!! moiicalty are quag you লাইন",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2661.jpg,চুইংগায চাবানোর সময় hasa bid,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0925.jpg,এসএসসি তে ফেল করার পর যখন ব্যাটার চালিত রিক্সা কিনতে চাই আব্বু mad বাপরে শখের তো কমতি নাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1546.jpg,iellnela ভ্যাটদিবে বিশ্ববিদ্যালয় কর্তৃপক্ষ ছাত্র ছাত্রী নয়! দুধ দিরে খামারিরা গরু ছাগলনয় big all bainnga,Political,1,0.06666666666666667,Political,True,Political,True,True,Political
+train2538.jpg,এডুকেশন এজুকেশন wuhan এজুখেইশান,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2525.jpg,eaphanlieed ভেবেছিলাম এখনো ছোটই আছি কোন পরিবর্তন হয়নি! chickens ten turns পরে জানলাম আজ পটেটো ক্রেকার্সও টাকার হয়ে গেছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0016.jpg,টাংগাইলের শাডি আর চমচয মহেরা জমিদার বড়ি গোপালপুর গুষজমসজিদ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1694.jpg,tatar টিচার যে ভাবে পরীক্ষা নিতে চায়! স্টুডেন্ট যেভাবে পরীক্ষা দিতে চায়! sniper,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2744.jpg,রকু ওহ্যান্ডেলমারোতানিয়ে প্রবলেম নেই প্রেবলেমটাহিচ্ছে হ্যান্ডেল মারার পর ববারথরুমেজল নাদিয়ে চলে এসেছিলো,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2147.jpg,কাসিজ ফাতেমা lufilladro friday anguilla sarcasibu তুই আর আমি তে একই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0568.jpg,বাংলাদেশের বিরুদ্ধে লড়ুতে প্রস্তুতমিয়ানমারা নিজেরা লড়াই কইরা কূল পাইনা আইছেলড়াইকরবার!,Political,2,0.2,Political,True,Political,True,True,Political
+train2746.jpg,"বিদেশীরা কোথাও যাওয়ার আগেসবলাইট ইলেট্রানিক্স বন্ধংকরে দিয়ে যায়! বাংলাদেশীরা, যাও মুড় আজাহর acirafunpas সব লাইট জ্বালিয়ে দাও, যাতে চোর, ডাকাতরা মনে করে আমার ঘরে আছি",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0206.jpg,"বন্ধুকে যখন রাতে এক কাপড় পড়ে ঘুমাতে দেখি, আর সকালে উঠে দেখি অন্য কাপড় পড়া asia nawab উতমি গবন্ধু",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2028.jpg,যখন আপান বাসা থেকে ঢাকা নিয়ে বাজার করে আনেন কিন্তু আপনাকে টিভি চ্যানেলে করোনা ত্রান সহায়তার লাইনে দাঁড়ানো দেখায় via ann,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0984.jpg,আপনার এক্সরেরিপোটেপরেটের মাঝে এতগুলো চামচদেখাযোচ্ছেকেনঃ আপনিই তো বলেছিলেন প্রেতিদিন দুই চামচ খেতে!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2358.jpg,বাংলাদেশ ভারত ভাইভাই সুমনআহম্মেদ থমম মুদিরভাই,Political,1,0.16666666666666666,Political,True,Political,True,True,Political
+train0657.jpg,ছাত্রলীগের দেশপরেন মূলক কাড,Political,1,0.25,Political,True,Political,True,True,Political
+train2053.jpg,আমাদেরকোন দোষ নেই দিদি জোর করে দাঁড় করিয়ে দিল ভোটে আরেঢ্যামনিগুলো আগামি মহানায়িকা তোরাই হরি,Political,2,0.13333333333333333,Political,True,Political,True,True,Political
+train2597.jpg,ডিপ ফ্রিজে আইস্ক্রিমের বক্স দেকসিলাম কিন্তুখুলে দেখি বক্সটা আদা রশুন এভিরা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1077.jpg,প্রেমেরনম বেদনা কথা বুঝিনি আগে pity banish salsa stark,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0780.jpg,মিম দেখলে আমি যেভাবে রিয়াক্ট করি halal memos আমার চেহারা যেমন থাকে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2196.jpg,নেয়েরবারা from etokhushi এই ছেলে তুমি কিকেরো? মেয়েরৌবয়ফ্রেন্ড late জি আপনার মেয়ে যা বলে তাই করি sushi urteeeeete,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2195.jpg,rib কৌনটীআগেখাবো?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1364.jpg,আমি প্রেয মোহমোয়াৎত্যাগ কারেছি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0552.jpg,যখন আপান একজন জভেন্টাস ফ্যান এবং তর্ক করতে গগয়ে বলেন আমাদের টা তছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0726.jpg,ফোনে কল আসার পর পাশের রুম যাওয়া বিদ্যমান আব্বু আম্মুঃ সন্দে will,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1803.jpg,যখন বাড়ির লৌক খবর পীয় পিকনিকে যেয়ে মদ খেতে শুরু করেছি!,NonPolitical,1,0.09090909090909091,Political,False,Political,False,True,Political
+train0537.jpg,আওয়ামিলীগঃ একটু চালাক না হলে ক্ষমতায় থাকা খুব মুশকিল! cramp,Political,1,0.1,Political,True,Political,True,True,Political
+train2667.jpg,মৃত্যুর পর জন বন্ধু আল কুরতন নামাজ রোজা নেক আমল,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2793.jpg,"druntopothik একসময় শুধু একটা মেয়েকেই ভালোবাসতাম, সে আমার মন ভাঙ্গসে! এখন সেই ভাঙ্গা মনের টুকরা গুলো ভিন্ন ভিন্ন মেয়েদের ভালোবাসে",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1049.jpg,যখন কোন বাচ্চার মা বাবা দুজনেই ট্রেনে উঠে য়ায় কিন্তু বাচ্চা টা উঠতে পারে না memos,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1236.jpg,আমি সারারাত তোমাকে নিয়ে ভাবি হারা তাহলে দিনে কাকে নিয়া ভাবিস? veii,NonPolitical,1,0.08333333333333333,Political,False,Political,False,True,Political
+train2641.jpg,bridals madness ক্লান্ত শরীরেতারাতারি ঘুমাতে চাওয়া আমি বাপজি আজকে বিদেশ যাইবেন না?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2278.jpg,heel পোলাপান বাহিরে পটকা ফুটাইতেসে আর আমি ঘরে বইসা বইসা শব্দ শুনতাসি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1243.jpg,রাষ্ট্রীয় স্বয়ংসেবকসঙ্ঘ রাষ্ট্র মিডিয়া,Political,1,0.25,Political,True,Political,True,True,Political
+train2772.jpg,তোর পিরয়ডের ডেইট চুপ থাক চলে আসছে. আমারে ঘুমাইতে দে what যদি তর পিরিয়ড এখনি শুরু হইয়া যায়?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0443.jpg,আমি ভজুচ halal memos আযার বন্ধু ব্দদি শয়তীন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2858.jpg,meanwhile paralleluniverse bengali bus বাড়িয়েছি এটাই অনেক বেশি ঘেউ ঘেউ করবেন না!,Political,2,0.16666666666666666,Political,True,Political,True,True,Political
+train2172.jpg,হাতের রং এক মুখের আরেক bail fake bail bailiati baiiifaki bail fake bail fall ski haji fake bull মনে হয় ময়দা শেষহয়ে গেছিলো,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0512.jpg,রোগী তার বন্ধু বান্ধব,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2496.jpg,যখন স্যারের অনুপস্থিতিতে বন্ধুদের সামনে স্যারের চেয়ারে বসি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2272.jpg,আক্মু শুনলাম ভুই নকি তোর ছোট ভাইকে বকী দিছোস? না আত্মু আমি কিছুই করি নাই levenquvnh,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1255.jpg,চীনা অ্যাপ ভারতে ব্যবহার করা নিষিদ্ধ হলো চীনের অর্থনীতি not stones গো,Political,1,0.08333333333333333,Political,True,Political,True,True,Political
+train0336.jpg,দোস্ত য়েদের প্রপোজ করারসরচাইতেনিরাপদ জায়গাকোনটা? শহীদ মিনারে iinaiiialjii শহীদমিনারে কেন nick কারন ঐখানে কারোপোযোজতাথাকেনা iiiapriop iiiarriop,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0743.jpg,রগজান শুরু হতেচলছে এবার এমন কিছু ছবি মার্কেটে আসতে চলেছে,Political,1,0.1,Political,True,Political,True,True,Political
+train2023.jpg,সেইদুঃখেরসময়যখন সবাইতোমাকেবাশ দেয় দগী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0306.jpg,দুইবার ভুমিকম্প হইসে! baiybnbib একবারও টের পাই নাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0636.jpg,সুখের সন্ধানষ আমার পরানঙ্গঃ সুখমা পাওয়াঙঃ আমি achintya চায়শেঃ যাহা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1369.jpg,ললডা না কলডা sarcasm german,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2295.jpg,কেউ না গাঁজা সেবন করার পর আমার বন্ধু ক্ষুধা লাগছে ক্ষুধা লাগছে ক্ষুধা লাগছে ক্ষুধা লাগছে ক্ষুধা লাগছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0264.jpg,আমি ত্রেতো গরম চা খাইয়ে কেটলি সোজা মুখে ঢেলে দেই faccbookcom আমি তোচাঃপাতাচিনি আরদুধ মুখেদিয়ে চুলায় বসেপরি গা ইবালা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1181.jpg,বিদ্যুৎ দফতরের চাকরি থেকে সাসপেন্ত শান্তনু বন্দ্যোপাধ্যায় series দুর্নীতিদূরকরলনমমতীব্যানারজী এবারবিদ্র্যুৎ এরদাম কমবেন,Political,2,0.16666666666666666,Political,True,Political,True,True,Political
+train0361.jpg,শুভেন্দু তো দিব্বি তূগমূলে ছিল হটাৎ বিজেপিতে যেতে গেল কেন? যদি টিএমসি তেঘাকত তাহলো ওকেও আজকেপাচিল টপকাতে সেয়ানাটা এটা আগে বুঝদেলী টপকাললো খতো,Political,2,0.08695652173913043,Political,True,Political,True,True,Political
+train0461.jpg,after missing other want salt when ileavehome early for tarweed father,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0122.jpg,kegjamarg bach একটা সুন্দরি মেয়ে পেছবুকে রিকুয়েস্ট পাঠাইছিল মাগার ওইটা ফেক আইডি ছিল,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1807.jpg,"পড়ার টেবিলে বসে, বই খাতা খুলে, okay outran মোবাইল টিপার মতো সুখ বোধহয় পৃথিবীর অন্য কোনো কাজে নেই!ণ",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1291.jpg,জুমার নামাজের পের মসজিদ থেকে বিরিয়ানির প্যাকেট একটা নেওয়ার পেরেও আরেকটা নেওয়ার চিন্তা করতে থকা আমার বন্ধু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0199.jpg,any kind result exists relative nights বচ খুব জানতে ইচ্ছে করে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1338.jpg,গুমেহমীনকে বাগ দেখাচ্ছিণ wanaiza bite ধকারণ তাবা যাওয়ার আগগ আমঘ হাতে টাকা ধরিজ দিলোশ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2545.jpg,ভাল ফ্যাকাল্টি পাইলে আমিও ভাল গ্রেড উঠাইতাম কিন্তু ওইটাইতো পাই না!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1918.jpg,shaitan right now fulani,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2787.jpg,আমার ফেসবূক খেমপেইজের অবস্থী এখন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2828.jpg,আমি রোজরাতে ঘুমানোর আগেলাগাই বিছানার উপর দাঁড়াইয়া লাগাই চেয়ারের উপর দাঁড়াইয়া লাগাই আমি মশারী লাগানোর কথা বলতেছি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2623.jpg,interviewer why areyou happy in your admission test close yeah but urban midis closer চগ alamo calamity,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0294.jpg,পর্তুগালের সাথেকার খেলা দেখলে ঘুমিয়ে যেতেহবে? উত্তর সুইডেন কারণ স্কোরকার্ডে লেখা থাকবে শুয়ে পড়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2355.jpg,মুরুব্বী কিরে রোজা আছিস? একদিনও রোজা না বাখা বছব বয়সী আমি halal memos আজকেরটা রাখিনাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0034.jpg,একই মেয়ের উপর দুজন ক্রাশ খাওয়ার পর বন্ধু যখন তা আমার জন্য ছেড়ে দেয় biiiellii the,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2207.jpg,দে জেলে বসে খাসির মাংস খেলেন অনুব্রত! গিচণড times,Political,2,0.2222222222222222,Political,True,Political,True,True,Political
+train2827.jpg,"যখন ফোনে কোনো ম্যাসেজ আসে larlkba ass fou naklasss মনে হয় কোনো মেয়ে দিছে ধুর শালা,সিম কোম্পানীর ম্যাসেজ",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0933.jpg,liieaibisiihee আমার মনের মাঝে fblgumietukhushi হারামি তাইলে কোণায় কাকে লুকাইয়া রাখছো?? তুমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1790.jpg,fhkebaji দোস্ত ছিঃ তুই এতোখারাপ? আরেআমি সাইবারক্যাফের কথা বলছি! যং,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0744.jpg,আতমোদ মেট্রোরেল ম্রমতীযি টাকা কেজি সুমন,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0142.jpg,তো তুমি আমার বয়ফ্রেন্ড হতে চাও! iiiaze আছে তো? woo padukohl delia cell,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2391.jpg,বলেন কি? what atunboxlol এটু ছোট একটা আয়নীর দাম হাঁজার টাকা? এটী ভালো বিদেশি আয়নী তলা বিল্ডিং এর উপর থেকে ছেডে দিলে তলা পর্যন্ত ভাঙবে নী ওয় তাঁহলে এটী প্যাক করে দিন খুবই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2213.jpg,যখন আপনি একজন হিন্দুত্ববাদী ফাসিস্ত কিন্তু আপনার নাম লাল কৃষ্ণ আদভানি,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1681.jpg,him বিক্রিকরেও কোটিপতি ওয়া যায় ঘুগনি,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train2057.jpg,প্রানির বোতলে আমার মুখ লাগানোর কারতে ওই রোতলের পানি না খাওয়া আমার গফ একটু আগে তার সাথে লিপ কিস করে আসা আমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0092.jpg,weiringmihiite shirt andeattng ran তরকারী,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0545.jpg,pewdiepie confirms that knows bangladesh separate country fulani আপনার আর দরদদেখানোর দরকার নাই বেঈমানের বেঈমান,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1267.jpg,গ্রীষ্মকালে তিস্তার বাধ বন্ধ কইরা দেয় আর বর্ষা কালে খুলা দেয়! hieebhi rolls kid পুরা ইণ্ডাস্ট্রি নিয়াঢাকাসফরোআসে তাদের ছবির ব্যবসবাংলাদেশেকেরতে! kid kid trolls iijunetrolls ফহিন্ননি কোনানকার আবারকয় বাংলা এক কইরা দিতে! ফিল!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1819.jpg,সৌদ মাবাইল নং বল হ্য বাল বিক্রয় করে! laiiiaiir এডা আবার কোনআবাল! বিক্রয় খন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2563.jpg,ছেলেরা university তেঃ ibilaiirajib সেমিস্টারঃ সেমিস্টারঃ atctrdltiibi সেমিস্টারঃ সেমিস্টারঃ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2698.jpg,"আমি ব্রাজিল সাপোরটার,তুই? mlkbesss আমিওতো ব্রাজিল চল কোলাকোলি করি",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2120.jpg,যখন ঢানা ঘণ্টা পাবজি খেলে মোবাইলকে মিনিটের জন্য দেই মোবাইল pochileipostiings আপনার আর দরদ দেখাতে হবেনা বেইমান এর বেইমান রেস্ট,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1817.jpg,আমি সব পারি শুধু টাকা জমাইতে পারি না!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0056.jpg,vajyimideii sane গরীন্ধীবাত ড! pluvial চচ glad গান্ধী গান্ধী গান্ধী গীন্ধী বাদ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0727.jpg,ঘুম থেকে উঠে সেহরী করবো সেহরী করে একবারে ঘুমাবো ঘুমামুই না ঔটবয part may many,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2113.jpg,নটক করছেঃ,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1040.jpg,put লয় ঢোর চিটিংবাজ. semis সর শেষে আসে তৃপমূল,Political,1,0.1111111111111111,Political,True,Political,True,True,Political
+train1556.jpg,are শুনেছি একমাত্রী বোকারাই নাকি প্রেমে পড়ে আর তারাইনাকি গার্লফ্রেন্ড পায় key wore morale এই জন্যই তো আমার কোনো গার্লফ্রেন্ড নাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2458.jpg,আস্মু যখন খীলামনিকে ফৌন দেয় সিম কৌপ্পানি swag,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0680.jpg,দুর্নীতিগ্রস্ত সরকার পরিবর্তন করডে চাইলে তৃণমূলই বিকল্প মেঘালয়বাসীকে আশ্বাস মমতার কচডো এগরব সংবাদ talk help এটা আমারও,Political,2,0.11764705882352941,Political,True,Political,True,True,Political
+train1514.jpg,অসাধারণ একটি ছবি এর অর্থ টা বুঝতে চেষ্টা করুন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1058.jpg,"soak akin roll trolls বালুর ট্রাক দিয় নিরাপত্যা দেয়, ভাইবার হোঁয়াটস অ্যাঁপ নিরাপত্যা fkeebhf rolls akin trolls মনে হয় যেন বাংলাদেশে সার্কাস চলতেছ! roll ঝুকি!",Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1162.jpg,ink sis fbxcomlnlkasss তোর রেজাল্ট কি? আম্মু fbxcumljhakkasss গোল্ডেন তার বাপ আনবে? খাইছেরে আজকে আসুক তোর বাপ পাইয়াও এই অবস্থা,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2588.jpg,pathan control easy পাঠাল দেখালে সিনেমা হল জ্বালিয়ে দিন প্ররোচনা অযোধ্যার সাধুর,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train2519.jpg,যখন ক্লাসের সবচেয়ে লম্বা ছেলেটাকে বোড মুছতে ডাক দেওয়া হয়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0723.jpg,মবাইকেমতূনবছুরেরশুডেচ্ছা ডালোকাটুকনতুনবছর সবরজীবত আচ্ছেদিন আসুক সবার জীবনআস্রক ন্যন ems,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0035.jpg,দোকানদার কে ছিড়া নোট দেওয়ার পর আমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2774.jpg,জেমস প্রতিমাসে তাঁরগাওয়া যেকোন ত্রেকটি কন্সাটের পুরো টাকা উনিবৃদ্ধাশ্রম এবংঅনাথ শিশুবদের মাঝে বিলিয়ে দেন,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0527.jpg,সালের মধ্যে বাংলাদেশ বিশসেরা ক্রিকেট দল হবে ikhioq share ঢি ক্ষমতায় এলেই বিশকাপ এনে দিব ইনশা আলাহ,Political,1,0.058823529411764705,Political,True,Political,True,True,Political
+train1695.jpg,এসএসসি রেজাল্টের বছর পর এই পোলায় এসএসসি তেগল্ডেন পাইছিলো biaiigla the দেখছোস কেউ এখন আর বেইলদেয়না?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0812.jpg,heb বাইজা গেরসেগা শালার পোলাপনএর পটকা শেষ হয়না কিন্তু ফুডানি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2603.jpg,তাসকিনের বোলিং একশন অবৈধ হলে তাহলে আমি কখনও গাজাখাইনা আমিভোর্জিন আমিনিজেরে আমি কাউকে মডেলাবলি নাই! কিস করি নাই! আমি মুস্তাফিজকে আমিসাদিয়ারে ধাক্বা মারি নোই!! চিনি না!!,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1460.jpg,myreauiiuninelamhall যখন পাশের বন্ধু খাতা দেখায় না যখন পাশের বন্ধু খাতা দেখায়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2672.jpg,ক্যারে? ইঞ্জিনিয়ারিং চান্স পাওয়ার পর! চিল্লাস ক্যারে? সিলেরাস দেখার পর! চিল্লাস ক্যোরে? বছরপর! চিল্লাস,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0791.jpg,hiftfui fureienrelatiles the বন্ধুদের যা পাইতে দেখিবা শুনি আর আমিয়া পাই! cellars have lairs,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0021.jpg,সৌরভ গাঙ্গূলির বিরব্দে অন্যায় হযেছে রোমদের পরণ করতে allies রত ডাক আর আমাব্দর সাগ্ন্যায় হয়েছে!? করমনিক্ষা শাবীবর্লি প্রানীদের,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train1119.jpg,hscresult এরআরমত্র বাকি দিন ঘণ্টা সেকেন্ডযবাকি intelligence,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1481.jpg,যখন দেখ ক্লাস নাইন এর ছেলে আর ক্লাস এর মেয়ে একসাথে হাত ধরে হাটতেসে আমিঃ এই জীবনোকিকরলাম?,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2202.jpg,আগেপলাপাইন স্কুলেযাইত পড়ালেখা করতে majowdershabeb এখনযায় ফঢও তুলতে ibltmuejialeh fail haji,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0395.jpg,যাকে ভালোবাসা যায় তাকে ময়লা কাপড় আর ছেড়া জামাতেও ভালোবাসা যায়! smartuutru blur,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2585.jpg,ike aware সবাই জান্নাতে যেতে চায় কিন্তু কেউ মরতে চায় না তেমনি সবাই ভাল রেজাল্ট করতে চায় কিন্তু কেউ পড়তে চায় না এএ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0749.jpg,পরিবারের বড়ুলে emboli পরিবারের ছোট ছেলে ill,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2535.jpg,ভালো করে দেখো মানুষটাকে evil mir chronon যে সবসময় নামাজের জন্য সবাইকে দাওয়াত দেয়,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1427.jpg,জন স্রকরয় সমযঅনহমিটি লগলকটিখটসিল uinatiulopibiuatonuluiha একটু আগরেইবরি করসিলাম সেন তাই মিষ্টি লগসী huaiqnukuihahullu ওয়াকাহ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1799.jpg,অন্য সবাই শেভ করার আগে শেভ করার পরে brick আমি শেভ করার আগে শেভ করার পরে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2270.jpg,প্রথমবার পট করে রিক্সা দিয়ে বাসায় যাওয়ার পথে আমিঃ tie,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1550.jpg,iiviiiy জান চঞ কোথাও খাইতে ঘই gumietokhiishi টিকাছে চলো যাই কিন্ত রিল তুমিংদিবা iiviiik না থাক যাবো না,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0953.jpg,পিসিসিপেমের দুর্নীতিরাফাইল ঔবছর হয়েগৈল নিয়ে আসছেন এখনও এলোনৎ থণওএন যহঃশ্লৎতলচারিসমেত সবচুরিছয়গছ,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train2129.jpg,fhizlemi নাচানাচি কইরাও হাইরা গেলাম com faizlamikorbi কেঁদো না সোনা আবার সামনের বছর চেষ্টা কইরো rob rob fhizlami,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0327.jpg,কি হয়সে ভাই? আপনার মন খারাপ কেন? সেইকখন থেকে মোবাইলটারে iirhiinemule দিয়ে রাখসি মোবাইলটা উড়তেসেইন কিণ্ডু,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1153.jpg,fake jazz আম্মিতযার টেষ্ট গোল্ডেন পছি নাই? তোরে দিয়া হবেনী! সবযমনসম্মন ডুবায়ে দিলি!! দেখবো আমি আমিতেব্লাড টেটর কথাবলতেছিলাম কিচ্ছু কি মুখ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2758.jpg,windows network diagnostic detecting problems এই জিনিস জীবনেঙ কাজ কয়েনী finely ten cancel,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0612.jpg,"আমিঃ বউ, রাস্তায় অনেক পানি আসতে দেরী হবে বউঃ আজকে শুটকি ভতা করছি আমিঃ শুটকি গুটকি ভর্তা গুটকি ভত errol tell",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0607.jpg,"train লাজে মরি, আমি লাজে মরি make ass বেবী,তুমি এত কেন পাও লজ্জ্বা? কাছে আসো,ভালবাসো চল তুমি আমি করি আজ মজ্জা",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1051.jpg,বীরভূমের বাঘ কুচুঢে ill আসলে যা,Political,2,0.3333333333333333,Political,True,Political,True,True,Political
+train1081.jpg,fkeebai ইংল্যাণ্ড এর বিপক্ষে আপনারঅসাধারন বোলিং এর রহস্য কি akin trolls axis trolls alibi সামনের ব্যাটসম্যান এর মুখে থপির এর চেহারা কল্পনা করলেই সব্যসহজহযয়েযাযা trolls,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0632.jpg,যখন কেউ বলে তোমার ভূড়ি বেড়ে গেছে,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1702.jpg,নির্বাচনের আগে নেতারা rubati islam নির্বাচনে জয়ী হওয়ার পর নেতারা,Political,2,0.2,Political,True,Political,True,True,Political
+train1732.jpg,"tank ball talk ball tank ball tank bajitanki ball tank bell tank haji কিরে তৌ সবই পায়, গোল্ডেন পইলি না কেন? bitmap tank haji tank haji tank ball tank bajltanki bell tank haji tank haji আরে বন্ধু, ছেলেদের জন্য স্বরণ হারাম",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1640.jpg,মামার সাথে ক্রাইম পেট্রল দেখছিলাম! আজকের পর্ব মামাতো বানের সাথে সম্পর্ক মেনে না নেয়ায় মামাকে খুন! sagormeme sagormeme sagormeme সতঙ মামী sago meme আমি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2370.jpg,"চার মারবি, ছক্কা মারবি, সেঞ্চুরি করবি? cffjaaa offjaaa anna ofelia সাকিব আল হাসীনহবি! rain আংকেল দুইহাতেই মারুন কারন dial deejay সারিবহমুনীতো কি পাপন হমু নাকি!",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0371.jpg,"ffhizlhmitorbi যদি ভালো চরিএ বানাতে চাস, তো এখন থেকে সমস্ত মাহলাদের মা বলে ডাকা শুরু কর! fbxeomffaizlamflkrl cfaizlamlrorbi স্যার তাতে আমার চরিএ ঠিক থাকবে আমার বাবার চরিএ কিন্তু",NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1780.jpg,when you realize everyone studying their asses off for hic andy don even know where start from nipas,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2543.jpg,চল স্যাররে পিটামু কেন দৌস্ত আরোকইছানা ৎমাইয়ারাহাসলে ওইটা দুষ্টামি আমরাহাসলে রেদ্দপি,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train0982.jpg,rug aware পাল মেয়েটিশপিং করতে চাইছে এইটা কোন পদ? বিপদ,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train2658.jpg,bank heist mathews yes sakti that you thought bangladesh nothing without did you ঋ! ialulmiuli aiglalaig hey,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1776.jpg,এই কোম্পানি চাকরী করার জন্যতমারকী গুন রয়েছে? স্যার আমি হোলির দিননে খই যেনরিজের বাবার নাম আর বাড়ির ঠিকানা ভুলে যাই! তুমিই তো প্রকৃত বাঙালি স্যালারি কত নেবে তোমার চাকরী পাক্কা ভাই??,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
+train1441.jpg,আড্যিচাইএকদিন্যভোহনবাগন ব্রাজল আরইতালিকেহরিয়যবিশ্ব আম্পিয়ন হোক! ill,Political,0,0.0,NonPolitical,False,NonPolitical,False,True,NonPolitical
+train0025.jpg,vajumideti sane let লোডশেডিং আল্লাহর রহমত কাছে আসেন আপনারে আল্লাহুর গজব দেখাই,NonPolitical,0,0.0,NonPolitical,True,NonPolitical,True,True,NonPolitical
