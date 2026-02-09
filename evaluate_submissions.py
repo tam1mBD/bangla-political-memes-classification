@@ -13,7 +13,8 @@ submissions = {
     'Neural Network': 'submissions/submission_neural_network.csv',
     'CLIP': 'submissions/submission_clip.csv',
     'Ensemble': 'submissions/submission_ensemble.csv',
-    'Late Fusion': 'submissions/submission_late_fusion.csv'
+    'Late Fusion': 'submissions/submission_late_fusion.csv',
+    'political_text': 'submissions/submission_hybrid_text_political.csv'
 }
 
 results = []
