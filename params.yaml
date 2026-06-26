@@ -11,6 +11,16 @@ TextModel:
   LEARNING_RATE: 0.001
   DROPOUT: 0.3
 
+NeuralNetworkModelUsingText:
+  EPOCHS: 50
+  BATCH_SIZE: 16
+  LEARNING_RATE: 0.001
+  HIDDEN_DIM: 64
+
 Ensemble:
   MAX_LENGTH: 128
   BATCH_SIZE: 16
+  C: 1.0
+  CLASS_WEIGHT: "balanced"
+  SOLVER: "lbfgs"
+  MAX_ITER: 1000
