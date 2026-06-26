@@ -67,3 +67,13 @@ ensemble:
   neural_network_model_path: artifacts/neural_network_model_using_text/model.pth
   clip_model_path: artifacts/clip_model/clip_model.pth
   meta_model_path: artifacts/ensemble/meta_model.joblib
+
+model_evaluation:
+  test_csv_path: artifacts/text_preprocessing/test_dataset_cleaned.csv
+  test_features_csv: artifacts/text_analysis/test_features.csv
+  test_img_dir: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+  logistic_regression_model_path: artifacts/classification_model_using_text/model.joblib
+  neural_network_model_path: artifacts/neural_network_model_using_text/model.pth
+  clip_model_path: artifacts/clip_model/clip_model.pth
+  meta_model_path: artifacts/ensemble/meta_model.joblib
+  mlflow_uri: "https://dagshub.com/tuhin1522/bangla-political-memes-classification.mlflow"
