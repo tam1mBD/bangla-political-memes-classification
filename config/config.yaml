@@ -14,3 +14,10 @@ text_extraction:
   test_image_folder: artifacts/data_ingestion/meme_classification_dataset/Test/Image
   extracted_train_csv: artifacts/text_extraction/meme_train_data_with_text.csv
   extracted_test_csv: artifacts/text_extraction/meme_test_data_with_text.csv
+
+text_preprocessing:
+  root_dir: artifacts/text_preprocessing
+  input_train_csv: artifacts/text_extraction/meme_train_data_with_text.csv
+  input_test_csv: artifacts/text_extraction/meme_test_data_with_text.csv
+  output_train_csv: artifacts/text_preprocessing/train_dataset_cleaned.csv
+  output_test_csv: artifacts/text_preprocessing/test_dataset_cleaned.csv
