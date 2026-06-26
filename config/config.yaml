@@ -2,6 +2,15 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://drive.google.com/file/d/18-4oTJsL3WuH7pq_Qc_Y1bnEgG2DhjZ6/view?usp=sharing
+  source_URL: https://drive.google.com/file/d/1Pqf3Gu-lSMXDg4YgSUEk2teFDPXxS1Ap/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+text_extraction:
+  root_dir: artifacts/text_extraction
+  train_csv_path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+  train_image_folder: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+  test_csv_path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv 
+  test_image_folder: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+  extracted_train_csv: artifacts/text_extraction/meme_train_data_with_text.csv
+  extracted_test_csv: artifacts/text_extraction/meme_test_data_with_text.csv
