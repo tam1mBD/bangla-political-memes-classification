@@ -1,5 +1,8 @@
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Literal
+
+SolverType = Literal["lbfgs", "liblinear", "newton-cg", "newton-cholesky", "sag", "saga"]
 
 
 @dataclass(frozen=True)
@@ -84,7 +87,7 @@ class EnsembleConfig:
     meta_model_path: Path
     c: float
     class_weight: str
-    solver: str
+    solver: SolverType
     max_iter: int
 
 @dataclass(frozen=True)
