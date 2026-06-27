@@ -1,0 +1,211 @@
+stages:
+  data_ingestion:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_01_data_ingestion
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_01_data_ingestion.py
+      - src/memeClassifier/components/st_01_data_ingestion.py
+      - src/memeClassifier/config/configuration.py
+    outs:
+      - artifacts/data_ingestion/data.zip
+      - artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Image
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  text_extraction:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_02_text_extraction
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_02_text_extraction.py
+      - src/memeClassifier/components/st_02_text_extraction.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Image
+    outs:
+      - artifacts/text_extraction/meme_train_data_with_text.csv
+      - artifacts/text_extraction/meme_test_data_with_text.csv
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  text_preprocessing:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_03_text_preprocessing
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_03_text_preprocessing.py
+      - src/memeClassifier/components/st_03_text_preprocessing.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/text_extraction/meme_train_data_with_text.csv
+      - artifacts/text_extraction/meme_test_data_with_text.csv
+    outs:
+      - artifacts/text_preprocessing/train_dataset_cleaned.csv
+      - artifacts/text_preprocessing/test_dataset_cleaned.csv
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  find_political_word:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_04_find_political_word
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_04_find_political_word.py
+      - src/memeClassifier/components/st_04_find_political_word.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/text_preprocessing/train_dataset_cleaned.csv
+    outs:
+      - artifacts/find_political_word/political_specific_words.csv
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  text_analysis:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_05_text_analysis
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_05_text_analysis.py
+      - src/memeClassifier/components/st_05_text_analysis.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/text_preprocessing/train_dataset_cleaned.csv
+      - artifacts/text_preprocessing/test_dataset_cleaned.csv
+      - artifacts/find_political_word/political_specific_words.csv
+    outs:
+      - artifacts/text_analysis/train_features.csv
+      - artifacts/text_analysis/test_features.csv
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  classification_model_using_text:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_06_classification_model_using_text
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_06_classification_model_using_text.py
+      - src/memeClassifier/components/st_06_classification_model_using_text.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/text_analysis/train_features.csv
+      - artifacts/text_analysis/test_features.csv
+    outs:
+      - artifacts/classification_model_using_text/model.joblib
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  neural_network_model_using_text:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_07_neural_network_model_using_text
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_07_neural_network_model_using_text.py
+      - src/memeClassifier/components/st_07_neural_network_model_using_text.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/text_analysis/train_features.csv
+      - artifacts/text_analysis/test_features.csv
+    outs:
+      - artifacts/neural_network_model_using_text/model.pth
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  clip_model:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_08_clip_model
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_08_clip_model.py
+      - src/memeClassifier/components/st_08_clip_model.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Image
+    outs:
+      - artifacts/clip_model/clip_model.pth
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  ensemble:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_09_ensemble
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_09_ensemble.py
+      - src/memeClassifier/components/st_09_ensemble.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/text_preprocessing/train_dataset_cleaned.csv
+      - artifacts/text_preprocessing/test_dataset_cleaned.csv
+      - artifacts/text_analysis/train_features.csv
+      - artifacts/text_analysis/test_features.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Image
+      - artifacts/classification_model_using_text/model.joblib
+      - artifacts/neural_network_model_using_text/model.pth
+      - artifacts/clip_model/clip_model.pth
+    outs:
+      - artifacts/ensemble/meta_model.joblib
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble
+
+  model_evaluation:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_10_model_evaluation_with_mlflow
+    deps:
+      - config/config.yaml
+      - params.yaml
+      - src/memeClassifier/pipeline/stage_10_model_evaluation_with_mlflow.py
+      - src/memeClassifier/components/st_10_model_evaluation_with_mlflow.py
+      - src/memeClassifier/config/configuration.py
+      - artifacts/text_preprocessing/test_dataset_cleaned.csv
+      - artifacts/text_analysis/test_features.csv
+      - artifacts/data_ingestion/meme_classification_dataset/Test/Image
+      - artifacts/classification_model_using_text/model.joblib
+      - artifacts/neural_network_model_using_text/model.pth
+      - artifacts/clip_model/clip_model.pth
+      - artifacts/ensemble/meta_model.joblib
+    metrics:
+      - scores.json
+    params:
+      - params.yaml:
+          - CLIPModel
+          - TextModel
+          - NeuralNetworkModelUsingText
+          - Ensemble

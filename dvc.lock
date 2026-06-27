@@ -1,0 +1,717 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_01_data_ingestion
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_01_data_ingestion.py
+      hash: md5
+      md5: cec44f47f8b985a541044828a1899a3c
+      size: 1455
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_01_data_ingestion.py
+      hash: md5
+      md5: 78dda34354adb6b4d6539c9c6deabcf7
+      size: 896
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/data_ingestion/data.zip
+      hash: md5
+      md5: 7ff576856528f73b51e00b007765aa87
+      size: 5333553
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+      hash: md5
+      md5: 4574c1bba389896ed38752e0e529e350.dir
+      size: 2050771
+      nfiles: 10
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
+      hash: md5
+      md5: 2af35001d2168c488d82d00d1bced795
+      size: 262
+    - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      hash: md5
+      md5: 79238ae3e674f029ff90923c5020f055.dir
+      size: 3403747
+      nfiles: 29
+    - path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+      hash: md5
+      md5: 116aa949b8e6a63f16fc96caa17c66ed
+      size: 766
+  text_extraction:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_02_text_extraction
+    deps:
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+      hash: md5
+      md5: 4574c1bba389896ed38752e0e529e350.dir
+      size: 2050771
+      nfiles: 10
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
+      hash: md5
+      md5: 2af35001d2168c488d82d00d1bced795
+      size: 262
+    - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      hash: md5
+      md5: 79238ae3e674f029ff90923c5020f055.dir
+      size: 3403747
+      nfiles: 29
+    - path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+      hash: md5
+      md5: 116aa949b8e6a63f16fc96caa17c66ed
+      size: 766
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_02_text_extraction.py
+      hash: md5
+      md5: 438cbdad032770d273e5594903cd2fa9
+      size: 3024
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_02_text_extraction.py
+      hash: md5
+      md5: aaf9731976f93fc223fe90450951af70
+      size: 876
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/text_extraction/meme_test_data_with_text.csv
+      hash: md5
+      md5: a59d227f354c2efe574ff48b05569a21
+      size: 1720
+    - path: artifacts/text_extraction/meme_train_data_with_text.csv
+      hash: md5
+      md5: 027eec170ba868c35f4d05b9467d1e84
+      size: 8128
+  text_preprocessing:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_03_text_preprocessing
+    deps:
+    - path: artifacts/text_extraction/meme_test_data_with_text.csv
+      hash: md5
+      md5: a59d227f354c2efe574ff48b05569a21
+      size: 1720
+    - path: artifacts/text_extraction/meme_train_data_with_text.csv
+      hash: md5
+      md5: 027eec170ba868c35f4d05b9467d1e84
+      size: 8128
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_03_text_preprocessing.py
+      hash: md5
+      md5: 4f2296ae10a0a4460099bfac22fdb744
+      size: 3808
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_03_text_preprocessing.py
+      hash: md5
+      md5: fcb28b790e4cb94354a12ed48da3e669
+      size: 911
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
+      hash: md5
+      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
+      size: 2491
+    - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
+      hash: md5
+      md5: afb9c09e254efcd943589430b59fa1b9
+      size: 10887
+  find_political_word:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_04_find_political_word
+    deps:
+    - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
+      hash: md5
+      md5: afb9c09e254efcd943589430b59fa1b9
+      size: 10887
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_04_find_political_word.py
+      hash: md5
+      md5: 9ca14d62909bd5eedd4d093766468106
+      size: 2672
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_04_find_political_word.py
+      hash: md5
+      md5: 8aef3c3e32ab036b9b3ab3fbf5eebfd7
+      size: 879
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/find_political_word/political_specific_words.csv
+      hash: md5
+      md5: 9498c26d147e62669e3f3393d25df10f
+      size: 136
+  text_analysis:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_05_text_analysis
+    deps:
+    - path: artifacts/find_political_word/political_specific_words.csv
+      hash: md5
+      md5: 9498c26d147e62669e3f3393d25df10f
+      size: 136
+    - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
+      hash: md5
+      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
+      size: 2491
+    - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
+      hash: md5
+      md5: afb9c09e254efcd943589430b59fa1b9
+      size: 10887
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_05_text_analysis.py
+      hash: md5
+      md5: f744677d46221f4d1ea1561c5e6f6c49
+      size: 2648
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_05_text_analysis.py
+      hash: md5
+      md5: 37d31b3336c778427d6227e8d78969e4
+      size: 835
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/text_analysis/test_features.csv
+      hash: md5
+      md5: e45f9b148a4ab8e112c9c978fe9dbf59
+      size: 2601
+    - path: artifacts/text_analysis/train_features.csv
+      hash: md5
+      md5: 334f5452ed4ecfeba29da331ea8626d3
+      size: 11163
+  classification_model_using_text:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_06_classification_model_using_text
+    deps:
+    - path: artifacts/text_analysis/test_features.csv
+      hash: md5
+      md5: e45f9b148a4ab8e112c9c978fe9dbf59
+      size: 2601
+    - path: artifacts/text_analysis/train_features.csv
+      hash: md5
+      md5: 334f5452ed4ecfeba29da331ea8626d3
+      size: 11163
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: 
+        src/memeClassifier/components/st_06_classification_model_using_text.py
+      hash: md5
+      md5: 91ac1c60d74d7d4b072c1d92adbfaf19
+      size: 1807
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: 
+        src/memeClassifier/pipeline/stage_06_classification_model_using_text.py
+      hash: md5
+      md5: b82f009bc0b10ca1fe2aed8ef3bc42ce
+      size: 918
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/classification_model_using_text/model.joblib
+      hash: md5
+      md5: e6eb3ae95e8bcf0addb5c6acb9870823
+      size: 1183
+  neural_network_model_using_text:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_07_neural_network_model_using_text
+    deps:
+    - path: artifacts/text_analysis/test_features.csv
+      hash: md5
+      md5: e45f9b148a4ab8e112c9c978fe9dbf59
+      size: 2601
+    - path: artifacts/text_analysis/train_features.csv
+      hash: md5
+      md5: 334f5452ed4ecfeba29da331ea8626d3
+      size: 11163
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: 
+        src/memeClassifier/components/st_07_neural_network_model_using_text.py
+      hash: md5
+      md5: 9bf376e9d2716db19dc75db08fd22a81
+      size: 3817
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: 
+        src/memeClassifier/pipeline/stage_07_neural_network_model_using_text.py
+      hash: md5
+      md5: ad0778591959ce8b949217fb89112bd9
+      size: 926
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/neural_network_model_using_text/model.pth
+      hash: md5
+      md5: c7fb1d8b993df88df6c4d6532167d342
+      size: 12029
+  clip_model:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_08_clip_model
+    deps:
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+      hash: md5
+      md5: 4574c1bba389896ed38752e0e529e350.dir
+      size: 2050771
+      nfiles: 10
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
+      hash: md5
+      md5: 2af35001d2168c488d82d00d1bced795
+      size: 262
+    - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      hash: md5
+      md5: 79238ae3e674f029ff90923c5020f055.dir
+      size: 3403747
+      nfiles: 29
+    - path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+      hash: md5
+      md5: 116aa949b8e6a63f16fc96caa17c66ed
+      size: 766
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_08_clip_model.py
+      hash: md5
+      md5: 99dda6cbda7d97e287fcaebccd769f0d
+      size: 8363
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_08_clip_model.py
+      hash: md5
+      md5: 5f0c726cd66ef5eb161c8b382fb9b987
+      size: 851
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/clip_model/clip_model.pth
+      hash: md5
+      md5: d9583b61a2cf7b0a804627bb74f8e83e
+      size: 605772419
+  ensemble:
+    cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_09_ensemble
+    deps:
+    - path: artifacts/classification_model_using_text/model.joblib
+      hash: md5
+      md5: e6eb3ae95e8bcf0addb5c6acb9870823
+      size: 1183
+    - path: artifacts/clip_model/clip_model.pth
+      hash: md5
+      md5: d9583b61a2cf7b0a804627bb74f8e83e
+      size: 605772419
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+      hash: md5
+      md5: 4574c1bba389896ed38752e0e529e350.dir
+      size: 2050771
+      nfiles: 10
+    - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+      hash: md5
+      md5: 79238ae3e674f029ff90923c5020f055.dir
+      size: 3403747
+      nfiles: 29
+    - path: artifacts/neural_network_model_using_text/model.pth
+      hash: md5
+      md5: c7fb1d8b993df88df6c4d6532167d342
+      size: 12029
+    - path: artifacts/text_analysis/test_features.csv
+      hash: md5
+      md5: e45f9b148a4ab8e112c9c978fe9dbf59
+      size: 2601
+    - path: artifacts/text_analysis/train_features.csv
+      hash: md5
+      md5: 334f5452ed4ecfeba29da331ea8626d3
+      size: 11163
+    - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
+      hash: md5
+      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
+      size: 2491
+    - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
+      hash: md5
+      md5: afb9c09e254efcd943589430b59fa1b9
+      size: 10887
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_09_ensemble.py
+      hash: md5
+      md5: feb049e5b74c2c8daa1d0017400c2038
+      size: 8908
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_09_ensemble.py
+      hash: md5
+      md5: 4f6b6d5b80d01aa37bd472021d44baf5
+      size: 1028
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: artifacts/ensemble/meta_model.joblib
+      hash: md5
+      md5: c9e968c6b2723d88d7025079bf9562a6
+      size: 1007
+  model_evaluation:
+    cmd: PYTHONPATH=src python3 -m 
+      memeClassifier.pipeline.stage_10_model_evaluation_with_mlflow
+    deps:
+    - path: artifacts/classification_model_using_text/model.joblib
+      hash: md5
+      md5: e6eb3ae95e8bcf0addb5c6acb9870823
+      size: 1183
+    - path: artifacts/clip_model/clip_model.pth
+      hash: md5
+      md5: d9583b61a2cf7b0a804627bb74f8e83e
+      size: 605772419
+    - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+      hash: md5
+      md5: 4574c1bba389896ed38752e0e529e350.dir
+      size: 2050771
+      nfiles: 10
+    - path: artifacts/ensemble/meta_model.joblib
+      hash: md5
+      md5: c9e968c6b2723d88d7025079bf9562a6
+      size: 1007
+    - path: artifacts/neural_network_model_using_text/model.pth
+      hash: md5
+      md5: c7fb1d8b993df88df6c4d6532167d342
+      size: 12029
+    - path: artifacts/text_analysis/test_features.csv
+      hash: md5
+      md5: e45f9b148a4ab8e112c9c978fe9dbf59
+      size: 2601
+    - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
+      hash: md5
+      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
+      size: 2491
+    - path: config/config.yaml
+      hash: md5
+      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      size: 4170
+    - path: params.yaml
+      hash: md5
+      md5: c08c861584ed77e12dfcd24466d96b1e
+      size: 403
+    - path: src/memeClassifier/components/st_10_model_evaluation_with_mlflow.py
+      hash: md5
+      md5: 39f53f0d3b69971ce087de6f699ba897
+      size: 10614
+    - path: src/memeClassifier/config/configuration.py
+      hash: md5
+      md5: d5296c25a67e45589bc25c17c93c63d3
+      size: 7650
+    - path: src/memeClassifier/pipeline/stage_10_model_evaluation_with_mlflow.py
+      hash: md5
+      md5: 4633a8239ab7a6a30ea0fcb4f8d13433
+      size: 1026
+    params:
+      params.yaml:
+        CLIPModel:
+          BATCH_SIZE: 16
+          EPOCHS: 10
+          LEARNING_RATE: 1e-05
+          WEIGHT_DECAY: 0.0001
+          DROPOUT: 0.3
+        Ensemble:
+          MAX_LENGTH: 128
+          BATCH_SIZE: 16
+          C: 1.0
+          CLASS_WEIGHT: balanced
+          SOLVER: lbfgs
+          MAX_ITER: 1000
+        NeuralNetworkModelUsingText:
+          EPOCHS: 50
+          BATCH_SIZE: 16
+          LEARNING_RATE: 0.001
+          HIDDEN_DIM: 64
+        TextModel:
+          BATCH_SIZE: 32
+          EPOCHS: 100
+          LEARNING_RATE: 0.001
+          DROPOUT: 0.3
+    outs:
+    - path: scores.json
+      hash: md5
+      md5: fd6d63cc86949a651fe815f9f94270e6
+      size: 97
