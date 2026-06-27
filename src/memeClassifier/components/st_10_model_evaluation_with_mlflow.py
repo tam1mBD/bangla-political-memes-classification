@@ -17,6 +17,38 @@ from memeClassifier import logger
 from memeClassifier.entity.config_entity import ModelEvaluationConfig
 from memeClassifier.utils.common import save_json
 
+
+def load_env_file(env_file: str | None = None) -> None:
+    """Load environment variables from the project .env file if present."""
+    root_candidates = [Path.cwd()]
+    root_candidates.extend([
+        Path(__file__).resolve().parents[3],
+        Path(__file__).resolve().parents[2],
+        Path(__file__).resolve().parents[1],
+    ])
+
+    env_path = Path(env_file) if env_file else None
+    if env_path is None:
+        for candidate in root_candidates:
+            possible_path = candidate / ".env"
+            if possible_path.exists():
+                env_path = possible_path
+                break
+
+    if env_path is None or not env_path.exists():
+        return
+
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+load_env_file()
+
+
 class CLIPClassifier(nn.Module):
     def __init__(self, clip_model, num_classes=2, dropout=0.3):
         super(CLIPClassifier, self).__init__()
@@ -187,7 +219,11 @@ class ModelEvaluation:
         save_json(path=Path("scores.json"), data=self.metrics)
         
     def log_into_mlflow(self):
-        mlflow.set_registry_uri(self.config.mlflow_uri)
+        tracking_uri = os.getenv("MLFLOW_TRACKING_URI") or self.config.mlflow_uri
+        if tracking_uri:
+            os.environ["MLFLOW_TRACKING_URI"] = tracking_uri
+            mlflow.set_tracking_uri(tracking_uri)
+        mlflow.set_registry_uri(tracking_uri or self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
         with mlflow.start_run():
