@@ -6,7 +6,7 @@ stages:
     deps:
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -52,26 +52,26 @@ stages:
     outs:
     - path: artifacts/data_ingestion/data.zip
       hash: md5
-      md5: 7ff576856528f73b51e00b007765aa87
-      size: 5333553
+      md5: 1ef0075d3576d360b09e8acfd6480ad8
+      size: 376149600
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
       hash: md5
-      md5: 4574c1bba389896ed38752e0e529e350.dir
-      size: 2050771
-      nfiles: 10
+      md5: f646232e97cecfdf9d62f5bb4caf28e3.dir
+      size: 69573913
+      nfiles: 330
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
       hash: md5
-      md5: 2af35001d2168c488d82d00d1bced795
-      size: 262
+      md5: df2b2ac28029f4c7bdd4d20dfedb4f87
+      size: 8385
     - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
       hash: md5
-      md5: 79238ae3e674f029ff90923c5020f055.dir
-      size: 3403747
-      nfiles: 29
+      md5: e4af0adce2568d1f93056d37f83c2d3f.dir
+      size: 317251840
+      nfiles: 2823
     - path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
       hash: md5
-      md5: 116aa949b8e6a63f16fc96caa17c66ed
-      size: 766
+      md5: 7972988647911124efdee348dbed055d
+      size: 77539
   text_extraction:
     cmd: PYTHONPATH=src python3 -m 
       memeClassifier.pipeline.stage_02_text_extraction
