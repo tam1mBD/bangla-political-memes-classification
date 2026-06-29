@@ -1,0 +1,79 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://drive.google.com/file/d/1eCFJeOHK-kcmaZqq334VjT-dPL3mYxLg/view?usp=sharing
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+text_extraction:
+  root_dir: artifacts/text_extraction
+  train_csv_path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+  train_image_folder: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+  test_csv_path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv 
+  test_image_folder: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+  extracted_train_csv: artifacts/text_extraction/meme_train_data_with_text.csv
+  extracted_test_csv: artifacts/text_extraction/meme_test_data_with_text.csv
+
+text_preprocessing:
+  root_dir: artifacts/text_preprocessing
+  input_train_csv: artifacts/text_extraction/meme_train_data_with_text.csv
+  input_test_csv: artifacts/text_extraction/meme_test_data_with_text.csv
+  output_train_csv: artifacts/text_preprocessing/train_dataset_cleaned.csv
+  output_test_csv: artifacts/text_preprocessing/test_dataset_cleaned.csv
+
+find_political_word:
+  root_dir: artifacts/find_political_word
+  input_train_csv: artifacts/text_preprocessing/train_dataset_cleaned.csv
+  output_csv: artifacts/find_political_word/political_specific_words.csv
+
+text_analysis:
+  root_dir: artifacts/text_analysis
+  input_train_csv: artifacts/text_preprocessing/train_dataset_cleaned.csv
+  input_test_csv: artifacts/text_preprocessing/test_dataset_cleaned.csv
+  political_words_csv: artifacts/find_political_word/political_specific_words.csv
+  output_train_features: artifacts/text_analysis/train_features.csv
+  output_test_features: artifacts/text_analysis/test_features.csv
+
+classification_model_using_text:
+  root_dir: artifacts/classification_model_using_text
+  train_features_csv: artifacts/text_analysis/train_features.csv
+  test_features_csv: artifacts/text_analysis/test_features.csv
+  model_path: artifacts/classification_model_using_text/model.joblib
+
+neural_network_model_using_text:
+  root_dir: artifacts/neural_network_model_using_text
+  train_features_csv: artifacts/text_analysis/train_features.csv
+  test_features_csv: artifacts/text_analysis/test_features.csv
+  model_path: artifacts/neural_network_model_using_text/model.pth
+
+clip_model:
+  root_dir: artifacts/clip_model
+  train_csv_path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
+  train_img_dir: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+  test_csv_path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
+  test_img_dir: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+  model_save_path: artifacts/clip_model/clip_model.pth
+
+ensemble:
+  root_dir: artifacts/ensemble
+  train_csv_path: artifacts/text_preprocessing/train_dataset_cleaned.csv
+  test_csv_path: artifacts/text_preprocessing/test_dataset_cleaned.csv
+  train_features_csv: artifacts/text_analysis/train_features.csv
+  test_features_csv: artifacts/text_analysis/test_features.csv
+  train_img_dir: artifacts/data_ingestion/meme_classification_dataset/Train/Image
+  test_img_dir: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+  logistic_regression_model_path: artifacts/classification_model_using_text/model.joblib
+  neural_network_model_path: artifacts/neural_network_model_using_text/model.pth
+  clip_model_path: artifacts/clip_model/clip_model.pth
+  meta_model_path: artifacts/ensemble/meta_model.joblib
+
+model_evaluation:
+  test_csv_path: artifacts/text_preprocessing/test_dataset_cleaned.csv
+  test_features_csv: artifacts/text_analysis/test_features.csv
+  test_img_dir: artifacts/data_ingestion/meme_classification_dataset/Test/Image
+  logistic_regression_model_path: artifacts/classification_model_using_text/model.joblib
+  neural_network_model_path: artifacts/neural_network_model_using_text/model.pth
+  clip_model_path: artifacts/clip_model/clip_model.pth
+  meta_model_path: artifacts/ensemble/meta_model.joblib
+  mlflow_uri: "https://dagshub.com/tuhin1522/bangla-political-memes-classification.mlflow"

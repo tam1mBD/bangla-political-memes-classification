@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangla Political Meme Classifier Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans min-h-screen">
+
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <header class="text-center mb-10 border-b border-slate-800 pb-6">
+            <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-2">
+                <i class="fa-solid fa-brain-circuit mr-2"></i> Multi-Modal Bangla Meme Classifier
+            </h1>
+            <p class="text-slate-400 max-w-2xl mx-auto">
+                Advanced Stacking Ensemble Model extracting OCR linguistics and structural CLIP features to classify memes into Political vs Non-Political spaces.
+            </p>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <div class="lg:col-span-5 bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl">
+                <h2 class="text-xl font-bold mb-4 flex items-center text-slate-200">
+                    <i class="fa-solid fa-file-arrow-up text-cyan-400 mr-2"></i> Input Control Panel
+                </h2>
+                
+                <form id="uploadForm" class="space-y-6">
+                    <div id="dropZone" class="border-2 border-dashed border-slate-600 hover:border-cyan-500 rounded-xl p-8 text-center cursor-pointer transition-colors bg-slate-850">
+                        <input type="file" id="imageInput" accept="image/*" class="hidden" />
+                        <i class="fa-solid fa-cloud-arrow-up text-4xl text-slate-400 mb-3"></i>
+                        <p class="text-sm text-slate-300 font-medium">Drag & drop your meme image here, or <span class="text-cyan-400 underline">browse storage</span></p>
+                        <p class="text-xs text-slate-500 mt-2">Supports JPG, PNG, JPEG, WEBP</p>
+                    </div>
+
+                    <div id="previewContainer" class="hidden bg-slate-900 rounded-xl p-3 border border-slate-700">
+                        <p class="text-xs text-slate-400 mb-2 font-semibold uppercase tracking-wider">Target Image Preview</p>
+                        <img id="imagePreview" src="#" alt="Target upload preview context" class="max-h-64 mx-auto rounded-lg object-contain shadow-md" />
+                    </div>
+
+                    <button type="submit" id="submitBtn" disabled class="w-full bg-gradient-to-r from-cyan-500 to-blue-600 disabled:from-slate-700 disabled:to-slate-700 text-white disabled:text-slate-400 font-bold py-3 px-4 rounded-xl shadow-lg transition-all transform enabled:hover:scale-[1.02] flex items-center justify-center cursor-pointer disabled:cursor-not-allowed">
+                        <i id="btnIcon" class="fa-solid fa-bolt mr-2"></i> <span id="btnText">Execute Model Inference</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="lg:col-span-7 space-y-6">
+                <div id="placeholderView" class="h-full bg-slate-800/40 border-2 border-dashed border-slate-800 rounded-2xl flex flex-col items-center justify-center p-12 text-center text-slate-500 min-h-[400px]">
+                    <i class="fa-solid fa-chart-pie text-6xl mb-4 text-slate-700"></i>
+                    <p class="text-lg font-medium">Awaiting Execution Pipeline Trigger</p>
+                    <p class="text-sm max-w-sm">Load a target image file from the input panel on the left and hit compute to view the diagnostics array parameters.</p>
+                </div>
+
+                <div id="analysisView" class="hidden space-y-6">
+                    <div id="decisionCard" class="rounded-2xl p-6 shadow-2xl border flex items-center justify-between">
+                        <div>
+                            <p class="text-xs font-semibold tracking-widest uppercase opacity-75">Final Ensemble Classification Outcome</p>
+                            <h3 id="finalLabel" class="text-3xl font-black mt-1">---</h3>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-xs font-semibold tracking-widest uppercase opacity-75">Meta Confidence Score</p>
+                            <span id="finalConfidence" class="text-4xl font-black block text-white mt-1">0.0%</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl space-y-4">
+                        <h3 class="text-lg font-bold border-b border-slate-700 pb-2 text-slate-200 flex items-center">
+                            <i class="fa-solid fa-language text-purple-400 mr-2"></i> NLP Linguistics Logs (OCR Tracking)
+                        </h3>
+                        <div>
+                            <p class="text-xs text-slate-400 font-semibold mb-1">Extracted Raw Text Strings:</p>
+                            <div id="ocrRaw" class="bg-slate-900 rounded-xl p-3 border border-slate-700 text-sm font-mono text-slate-300 whitespace-pre-wrap break-words max-h-24 overflow-y-auto">---</div>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 font-semibold mb-1">Cleaned Normalization Tokens:</p>
+                            <div id="ocrClean" class="bg-slate-900 rounded-xl p-3 border border-slate-700 text-sm font-mono text-emerald-400 whitespace-pre-wrap break-words max-h-24 overflow-y-auto">---</div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 pt-2">
+                            <div class="bg-slate-900 p-3 rounded-xl border border-slate-700 text-center">
+                                <span class="text-xs text-slate-400 block uppercase font-bold tracking-wider">Pol-Vocabulary Hits</span>
+                                <span id="wordHits" class="text-xl font-bold text-cyan-400">0</span>
+                            </div>
+                            <div class="bg-slate-900 p-3 rounded-xl border border-slate-700 text-center">
+                                <span class="text-xs text-slate-400 block uppercase font-bold tracking-wider">Density Metric Ratio</span>
+                                <span id="densityRatio" class="text-xl font-bold text-cyan-400">0.0000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl space-y-5">
+                        <h3 class="text-lg font-bold border-b border-slate-700 pb-2 text-slate-200 flex items-center">
+                            <i class="fa-solid fa-layer-group text-amber-400 mr-2"></i> Base Model Array Stacking Weights
+                        </h3>
+                        
+                        <div class="space-y-1">
+                            <div class="flex justify-between text-xs font-semibold">
+                                <span class="text-slate-300">1. Text Logistic Regression Model</span>
+                                <span id="lrScore" class="text-cyan-400">0% Political</span>
+                            </div>
+                            <div class="w-full bg-slate-900 rounded-full h-3 overflow-hidden border border-slate-700">
+                                <div id="lrBar" class="bg-gradient-to-r from-blue-500 to-cyan-400 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-1">
+                            <div class="flex justify-between text-xs font-semibold">
+                                <span class="text-slate-300">2. Text Custom Deep Neural Network</span>
+                                <span id="nnScore" class="text-cyan-400">0% Political</span>
+                            </div>
+                            <div class="w-full bg-slate-900 rounded-full h-3 overflow-hidden border border-slate-700">
+                                <div id="nnBar" class="bg-gradient-to-r from-blue-500 to-purple-400 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-1">
+                            <div class="flex justify-between text-xs font-semibold">
+                                <span class="text-slate-300">3. Fine-Tuned Transformer Vision CLIP Classifier</span>
+                                <span id="clipScore" class="text-cyan-400">0% Political</span>
+                            </div>
+                            <div class="w-full bg-slate-900 rounded-full h-3 overflow-hidden border border-slate-700">
+                                <div id="clipBar" class="bg-gradient-to-r from-blue-500 to-pink-400 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const imageInput = document.getElementById('imageInput');
+        const previewContainer = document.getElementById('previewContainer');
+        const imagePreview = document.getElementById('imagePreview');
+        const uploadForm = document.getElementById('uploadForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const btnIcon = document.getElementById('btnIcon');
+        const btnText = document.getElementById('btnText');
+        
+        const placeholderView = document.getElementById('placeholderView');
+        const analysisView = document.getElementById('analysisView');
+
+        // Dropzone Action Events Interceptor
+        dropZone.addEventListener('click', () => imageInput.click());
+        
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('border-cyan-500', 'bg-slate-800');
+        });
+
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('border-cyan-500', 'bg-slate-800');
+        });
+
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('border-cyan-500', 'bg-slate-800');
+            if (e.dataTransfer.files.length > 0) {
+                imageInput.files = e.dataTransfer.files;
+                displayImagePreview(e.dataTransfer.files[0]);
+            }
+        });
+
+        imageInput.addEventListener('change', () => {
+            if (imageInput.files.length > 0) {
+                displayImagePreview(imageInput.files[0]);
+            }
+        });
+
+        function displayImagePreview(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                imagePreview.src = e.target.result;
+                previewContainer.classList.remove('hidden');
+                submitBtn.disabled = false;
+            }
+            reader.readAsDataURL(file);
+        }
+
+        // Form Submit Handler (AJAX Request)
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            if (imageInput.files.length === 0) return;
+
+            const formData = new FormData();
+            formData.append('file', imageInput.files[0]);
+
+            // Transform button to Loader configuration state
+            submitBtn.disabled = true;
+            btnIcon.className = "fa-solid fa-spinner animate-spin mr-2";
+            btnText.innerText = "Extracting Features & Executing Stacking...";
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    const errPayload = await response.json();
+                    throw new Error(errPayload.detail || "Server internal configuration failure.");
+                }
+
+                const data = await response.json();
+                renderMetricsReport(data);
+
+            } catch (err) {
+                alert(`Execution Failure: ${err.message}`);
+                console.error(err);
+            } finally {
+                // Restore Button settings
+                submitBtn.disabled = false;
+                btnIcon.className = "fa-solid fa-bolt mr-2";
+                btnText.innerText = "Execute Model Inference";
+            }
+        });
+
+        function renderMetricsReport(data) {
+            // Uncover primary metrics template views
+            placeholderView.classList.add('hidden');
+            analysisView.classList.remove('hidden');
+
+            const isPolitical = data.prediction.label === "Political";
+            
+            // Adjust Card styles contextually matching target type flags
+            const card = document.getElementById('decisionCard');
+            if (isPolitical) {
+                card.className = "rounded-2xl p-6 shadow-2xl border border-red-500/30 bg-gradient-to-r from-red-950/40 to-slate-800 text-red-400";
+                document.getElementById('finalLabel').innerText = "Political Meme";
+            } else {
+                card.className = "rounded-2xl p-6 shadow-2xl border border-emerald-500/30 bg-gradient-to-r from-emerald-950/40 to-slate-800 text-emerald-400";
+                document.getElementById('finalLabel').innerText = "Non-Political Meme";
+            }
+
+            // Fill parameters mapping
+            document.getElementById('finalConfidence').innerText = `${data.prediction.confidence_percentage}%`;
+            document.getElementById('ocrRaw').innerText = data.extracted_text;
+            document.getElementById('ocrClean').innerText = data.cleaned_text;
+            document.getElementById('wordHits').innerText = data.metrics.keyword_matches;
+            document.getElementById('densityRatio').innerText = data.metrics.density_ratio;
+
+            // Fill individual base weights tracking meters
+            const lrPolVal = Math.round(data.base_models_breakdown.logistic_regression.political * 100);
+            document.getElementById('lrScore').innerText = `${lrPolVal}% Political`;
+            document.getElementById('lrBar').style.width = `${lrPolVal}%`;
+
+            const nnPolVal = Math.round(data.base_models_breakdown.deep_neural_network.political * 100);
+            document.getElementById('nnScore').innerText = `${nnPolVal}% Political`;
+            document.getElementById('nnBar').style.width = `${nnPolVal}%`;
+
+            const clipPolVal = Math.round(data.base_models_breakdown.vision_clip_model.political * 100);
+            document.getElementById('clipScore').innerText = `${clipPolVal}% Political`;
+            document.getElementById('clipBar').style.width = `${clipPolVal}%`;
+        }
+    </script>
+</body>
+</html>
