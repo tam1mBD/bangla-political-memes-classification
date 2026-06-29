@@ -18,4 +18,3 @@ artifacts/
 logs/
 .env
 *.db
-/scores.json
