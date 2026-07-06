@@ -78,25 +78,25 @@ stages:
     deps:
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
       hash: md5
-      md5: 4574c1bba389896ed38752e0e529e350.dir
-      size: 2050771
-      nfiles: 10
+      md5: f646232e97cecfdf9d62f5bb4caf28e3.dir
+      size: 69573913
+      nfiles: 330
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
       hash: md5
-      md5: 2af35001d2168c488d82d00d1bced795
-      size: 262
+      md5: df2b2ac28029f4c7bdd4d20dfedb4f87
+      size: 8385
     - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
       hash: md5
-      md5: 79238ae3e674f029ff90923c5020f055.dir
-      size: 3403747
-      nfiles: 29
+      md5: e4af0adce2568d1f93056d37f83c2d3f.dir
+      size: 317251840
+      nfiles: 2823
     - path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
       hash: md5
-      md5: 116aa949b8e6a63f16fc96caa17c66ed
-      size: 766
+      md5: 7972988647911124efdee348dbed055d
+      size: 77539
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -142,27 +142,27 @@ stages:
     outs:
     - path: artifacts/text_extraction/meme_test_data_with_text.csv
       hash: md5
-      md5: a59d227f354c2efe574ff48b05569a21
-      size: 1720
+      md5: 95b4cbe38c80f9426731d88825182b85
+      size: 70518
     - path: artifacts/text_extraction/meme_train_data_with_text.csv
       hash: md5
-      md5: 027eec170ba868c35f4d05b9467d1e84
-      size: 8128
+      md5: 68610bbdf70e1ee602e6d1376938586d
+      size: 790369
   text_preprocessing:
     cmd: PYTHONPATH=src python3 -m 
       memeClassifier.pipeline.stage_03_text_preprocessing
     deps:
     - path: artifacts/text_extraction/meme_test_data_with_text.csv
       hash: md5
-      md5: a59d227f354c2efe574ff48b05569a21
-      size: 1720
+      md5: 95b4cbe38c80f9426731d88825182b85
+      size: 70518
     - path: artifacts/text_extraction/meme_train_data_with_text.csv
       hash: md5
-      md5: 027eec170ba868c35f4d05b9467d1e84
-      size: 8128
+      md5: 68610bbdf70e1ee602e6d1376938586d
+      size: 790369
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -208,23 +208,23 @@ stages:
     outs:
     - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
       hash: md5
-      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
-      size: 2491
+      md5: 676872f2cf5aaa3cf35eb3a5cead7869
+      size: 98192
     - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
       hash: md5
-      md5: afb9c09e254efcd943589430b59fa1b9
-      size: 10887
+      md5: 7ecbec7f88bef1724410be4e52ee23da
+      size: 1048120
   find_political_word:
     cmd: PYTHONPATH=src python3 -m 
       memeClassifier.pipeline.stage_04_find_political_word
     deps:
     - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
       hash: md5
-      md5: afb9c09e254efcd943589430b59fa1b9
-      size: 10887
+      md5: 7ecbec7f88bef1724410be4e52ee23da
+      size: 1048120
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -270,27 +270,27 @@ stages:
     outs:
     - path: artifacts/find_political_word/political_specific_words.csv
       hash: md5
-      md5: 9498c26d147e62669e3f3393d25df10f
-      size: 136
+      md5: 61a7a177144f7a1ddcd74f7fde103c41
+      size: 13030
   text_analysis:
     cmd: PYTHONPATH=src python3 -m 
       memeClassifier.pipeline.stage_05_text_analysis
     deps:
     - path: artifacts/find_political_word/political_specific_words.csv
       hash: md5
-      md5: 9498c26d147e62669e3f3393d25df10f
-      size: 136
+      md5: 61a7a177144f7a1ddcd74f7fde103c41
+      size: 13030
     - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
       hash: md5
-      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
-      size: 2491
+      md5: 676872f2cf5aaa3cf35eb3a5cead7869
+      size: 98192
     - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
       hash: md5
-      md5: afb9c09e254efcd943589430b59fa1b9
-      size: 10887
+      md5: 7ecbec7f88bef1724410be4e52ee23da
+      size: 1048120
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -336,27 +336,27 @@ stages:
     outs:
     - path: artifacts/text_analysis/test_features.csv
       hash: md5
-      md5: e45f9b148a4ab8e112c9c978fe9dbf59
-      size: 2601
+      md5: f414fa8481f3ede56ba005872d0b1ad1
+      size: 102206
     - path: artifacts/text_analysis/train_features.csv
       hash: md5
-      md5: 334f5452ed4ecfeba29da331ea8626d3
-      size: 11163
+      md5: 658020c7778218388c526dcdf1ae300a
+      size: 1088551
   classification_model_using_text:
     cmd: PYTHONPATH=src python3 -m 
       memeClassifier.pipeline.stage_06_classification_model_using_text
     deps:
     - path: artifacts/text_analysis/test_features.csv
       hash: md5
-      md5: e45f9b148a4ab8e112c9c978fe9dbf59
-      size: 2601
+      md5: f414fa8481f3ede56ba005872d0b1ad1
+      size: 102206
     - path: artifacts/text_analysis/train_features.csv
       hash: md5
-      md5: 334f5452ed4ecfeba29da331ea8626d3
-      size: 11163
+      md5: 658020c7778218388c526dcdf1ae300a
+      size: 1088551
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -404,7 +404,7 @@ stages:
     outs:
     - path: artifacts/classification_model_using_text/model.joblib
       hash: md5
-      md5: e6eb3ae95e8bcf0addb5c6acb9870823
+      md5: 3f797d1af4788f9a8284d4ebb62ced1e
       size: 1183
   neural_network_model_using_text:
     cmd: PYTHONPATH=src python3 -m 
@@ -412,15 +412,15 @@ stages:
     deps:
     - path: artifacts/text_analysis/test_features.csv
       hash: md5
-      md5: e45f9b148a4ab8e112c9c978fe9dbf59
-      size: 2601
+      md5: f414fa8481f3ede56ba005872d0b1ad1
+      size: 102206
     - path: artifacts/text_analysis/train_features.csv
       hash: md5
-      md5: 334f5452ed4ecfeba29da331ea8626d3
-      size: 11163
+      md5: 658020c7778218388c526dcdf1ae300a
+      size: 1088551
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -468,32 +468,32 @@ stages:
     outs:
     - path: artifacts/neural_network_model_using_text/model.pth
       hash: md5
-      md5: c7fb1d8b993df88df6c4d6532167d342
+      md5: a29217a0b421510e013e871e1aefd11e
       size: 12029
   clip_model:
     cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_08_clip_model
     deps:
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
       hash: md5
-      md5: 4574c1bba389896ed38752e0e529e350.dir
-      size: 2050771
-      nfiles: 10
+      md5: f646232e97cecfdf9d62f5bb4caf28e3.dir
+      size: 69573913
+      nfiles: 330
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Test.csv
       hash: md5
-      md5: 2af35001d2168c488d82d00d1bced795
-      size: 262
+      md5: df2b2ac28029f4c7bdd4d20dfedb4f87
+      size: 8385
     - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
       hash: md5
-      md5: 79238ae3e674f029ff90923c5020f055.dir
-      size: 3403747
-      nfiles: 29
+      md5: e4af0adce2568d1f93056d37f83c2d3f.dir
+      size: 317251840
+      nfiles: 2823
     - path: artifacts/data_ingestion/meme_classification_dataset/Train/Train.csv
       hash: md5
-      md5: 116aa949b8e6a63f16fc96caa17c66ed
-      size: 766
+      md5: 7972988647911124efdee348dbed055d
+      size: 77539
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -539,52 +539,52 @@ stages:
     outs:
     - path: artifacts/clip_model/clip_model.pth
       hash: md5
-      md5: d9583b61a2cf7b0a804627bb74f8e83e
+      md5: 459d1033c450ea755b9a2701c3e12169
       size: 605772419
   ensemble:
     cmd: PYTHONPATH=src python3 -m memeClassifier.pipeline.stage_09_ensemble
     deps:
     - path: artifacts/classification_model_using_text/model.joblib
       hash: md5
-      md5: e6eb3ae95e8bcf0addb5c6acb9870823
+      md5: 3f797d1af4788f9a8284d4ebb62ced1e
       size: 1183
     - path: artifacts/clip_model/clip_model.pth
       hash: md5
-      md5: d9583b61a2cf7b0a804627bb74f8e83e
+      md5: 459d1033c450ea755b9a2701c3e12169
       size: 605772419
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
       hash: md5
-      md5: 4574c1bba389896ed38752e0e529e350.dir
-      size: 2050771
-      nfiles: 10
+      md5: f646232e97cecfdf9d62f5bb4caf28e3.dir
+      size: 69573913
+      nfiles: 330
     - path: artifacts/data_ingestion/meme_classification_dataset/Train/Image
       hash: md5
-      md5: 79238ae3e674f029ff90923c5020f055.dir
-      size: 3403747
-      nfiles: 29
+      md5: e4af0adce2568d1f93056d37f83c2d3f.dir
+      size: 317251840
+      nfiles: 2823
     - path: artifacts/neural_network_model_using_text/model.pth
       hash: md5
-      md5: c7fb1d8b993df88df6c4d6532167d342
+      md5: a29217a0b421510e013e871e1aefd11e
       size: 12029
     - path: artifacts/text_analysis/test_features.csv
       hash: md5
-      md5: e45f9b148a4ab8e112c9c978fe9dbf59
-      size: 2601
+      md5: f414fa8481f3ede56ba005872d0b1ad1
+      size: 102206
     - path: artifacts/text_analysis/train_features.csv
       hash: md5
-      md5: 334f5452ed4ecfeba29da331ea8626d3
-      size: 11163
+      md5: 658020c7778218388c526dcdf1ae300a
+      size: 1088551
     - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
       hash: md5
-      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
-      size: 2491
+      md5: 676872f2cf5aaa3cf35eb3a5cead7869
+      size: 98192
     - path: artifacts/text_preprocessing/train_dataset_cleaned.csv
       hash: md5
-      md5: afb9c09e254efcd943589430b59fa1b9
-      size: 10887
+      md5: 7ecbec7f88bef1724410be4e52ee23da
+      size: 1048120
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -630,7 +630,7 @@ stages:
     outs:
     - path: artifacts/ensemble/meta_model.joblib
       hash: md5
-      md5: c9e968c6b2723d88d7025079bf9562a6
+      md5: 7e1c4dffa73c1543fcfe66052bfcc0ce
       size: 1007
   model_evaluation:
     cmd: PYTHONPATH=src python3 -m 
@@ -638,36 +638,36 @@ stages:
     deps:
     - path: artifacts/classification_model_using_text/model.joblib
       hash: md5
-      md5: e6eb3ae95e8bcf0addb5c6acb9870823
+      md5: 3f797d1af4788f9a8284d4ebb62ced1e
       size: 1183
     - path: artifacts/clip_model/clip_model.pth
       hash: md5
-      md5: d9583b61a2cf7b0a804627bb74f8e83e
+      md5: 459d1033c450ea755b9a2701c3e12169
       size: 605772419
     - path: artifacts/data_ingestion/meme_classification_dataset/Test/Image
       hash: md5
-      md5: 4574c1bba389896ed38752e0e529e350.dir
-      size: 2050771
-      nfiles: 10
+      md5: f646232e97cecfdf9d62f5bb4caf28e3.dir
+      size: 69573913
+      nfiles: 330
     - path: artifacts/ensemble/meta_model.joblib
       hash: md5
-      md5: c9e968c6b2723d88d7025079bf9562a6
+      md5: 7e1c4dffa73c1543fcfe66052bfcc0ce
       size: 1007
     - path: artifacts/neural_network_model_using_text/model.pth
       hash: md5
-      md5: c7fb1d8b993df88df6c4d6532167d342
+      md5: a29217a0b421510e013e871e1aefd11e
       size: 12029
     - path: artifacts/text_analysis/test_features.csv
       hash: md5
-      md5: e45f9b148a4ab8e112c9c978fe9dbf59
-      size: 2601
+      md5: f414fa8481f3ede56ba005872d0b1ad1
+      size: 102206
     - path: artifacts/text_preprocessing/test_dataset_cleaned.csv
       hash: md5
-      md5: 4bca8d9b582e32fa7902ee2e1f6002c1
-      size: 2491
+      md5: 676872f2cf5aaa3cf35eb3a5cead7869
+      size: 98192
     - path: config/config.yaml
       hash: md5
-      md5: 9fd57fc5b9c5dbb18f3feac095f74869
+      md5: 28d46e50ac9375163759b3a3ee6dcbb7
       size: 4170
     - path: params.yaml
       hash: md5
@@ -683,8 +683,8 @@ stages:
       size: 7650
     - path: src/memeClassifier/pipeline/stage_10_model_evaluation_with_mlflow.py
       hash: md5
-      md5: 4633a8239ab7a6a30ea0fcb4f8d13433
-      size: 1026
+      md5: 702d17429d00317a6dd55c24ad32cc71
+      size: 1024
     params:
       params.yaml:
         CLIPModel:
@@ -713,5 +713,5 @@ stages:
     outs:
     - path: scores.json
       hash: md5
-      md5: fd6d63cc86949a651fe815f9f94270e6
-      size: 97
+      md5: 3707fc0864eb5f2117aaa903c234fed2
+      size: 139
